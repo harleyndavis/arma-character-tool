@@ -1,13 +1,6 @@
-To run locally:
-```
-npm install
-npm start
-```
+# Armageddon Class Tool
+Continuing work done by Triste, to keep tool updated and hopefully add additional features.
 
-To deploy:
-```
-npm run predeploy
-npm run deploy
-```
 
-Feel free to submit pull requests! Ping me, triste, on the [Armageddon GDB](https://gdb.armageddon.org) if I don't reply on github, this github account is linked with a junk email.
+## Credits
+Credits due to [Triste](https://github.com/tristeArmageddon/) for putting in all the hard work for this tool to be functional. Shout out to kittenlicks who some of the original work was based on.
