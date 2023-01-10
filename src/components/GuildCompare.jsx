@@ -81,10 +81,10 @@ class GuildCompare extends Component {
       guild2,
     } = this.state;
     const tableConfig = {
-      g1Label: "Guild 1",
-      g2Label: "Guild 2",
-      g1Key: "guild",
-      g2Key: "guild",
+      g1Label: "Class 1",
+      g2Label: "Class 2",
+      g1Key: "class",
+      g2Key: "class",
       g1Value: guild1,
       g2Value: guild2,
     };
@@ -92,7 +92,7 @@ class GuildCompare extends Component {
       <>
         <Grid container justifyContent="center" spacing={16} className={classes.container}>
           <Grid item xs={12} sm={6}>
-            <FormHelperText>Guild 1</FormHelperText>
+            <FormHelperText>Class 1</FormHelperText>
             <FormControl className={classes.formControl}>
               <Select
                 value={this.state.guild1}

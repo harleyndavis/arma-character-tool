@@ -2,7 +2,6 @@ import React from 'react'
 import { withStyles } from '@material-ui/core/styles';
 import NavBar from './NavBar'
 import Grid from '@material-ui/core/Grid';
-import DeprecationModal from './DeprecationModal';
 
 const styles = (theme) => ({
   layout: {
@@ -23,7 +22,6 @@ const Layout = ({
 }) => {
   return(
     <div>
-      <DeprecationModal/>
       <Grid container className={classes.layout}>
         <Grid item xs={12}>
           <NavBar />

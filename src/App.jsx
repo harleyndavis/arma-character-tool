@@ -10,18 +10,18 @@ import themeOverrides from './theme.js';
 const theme = createTheme(themeOverrides);
 
 function App() {
-  return (
-    <MuiThemeProvider theme={theme}>
-      <Router>
-        <Layout>
-          <Route path="/arma-guild-picker/" exact component={GuildPicker} />
-          <Route path="/arma-guild-picker/guild-picker/" component={GuildPicker} />
-          <Route path="/arma-guild-picker/guild-compare/" component={GuildCompare} />
-          <Route path="/arma-guild-picker/skill-picker/" component={SkillPicker} />
-        </Layout>
-      </Router>
-    </MuiThemeProvider>
-  );
+    return (
+        <MuiThemeProvider theme={theme}>
+            <Router>
+                <Layout>
+                    <Route path="/arma-character-tool/" exact component={GuildPicker} />
+                    <Route path="/arma-character-tool/class-picker/" component={GuildPicker} />
+                    <Route path="/arma-character-tool/class-compare/" component={GuildCompare} />
+                    <Route path="/arma-character-tool/skill-picker/" component={SkillPicker} />
+                </Layout>
+            </Router>
+        </MuiThemeProvider>
+    );
 }
 
 export default App;

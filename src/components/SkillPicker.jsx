@@ -170,9 +170,9 @@ class SkillPicker extends Component {
         <Grid item xs={12} sm={6}>
           <Paper square>
             <Typography className={classes.sectionTitle}>
-              Matching Guild
+              Matching Class
               {' '}
-              <span className={classes.selectedCount}>(Click to View in Guild Picker)</span>
+              <span className={classes.selectedCount}>(Click to View in Class Picker)</span>
             </Typography>
             <Grid container justifyContent="center" spacing={2} className={classes.container}>
               {this.findGuildsForSkills().map(guildCombination => (

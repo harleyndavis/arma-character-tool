@@ -10,478 +10,482 @@
     "barter"
   ],
   "skills": {
-    "psionics":{
-      "contact":{
+    "psionics": {
+      "contact": {
         "label": "Contact",
-        "documentation":""
+        "documentation": ""
       },
-      "barrier":{
+      "barrier": {
         "label": "Barrier",
-        "documentation":""
+        "documentation": ""
       },
-      "expel":{
+      "expel": {
         "label": "Expel",
-        "documentation":""
+        "documentation": ""
       }
     },
-    "combat":{
-      "archery":{
+    "combat": {
+      "archery": {
         "label": "Archery",
-        "documentation":""
+        "documentation": ""
       },
-      "backstab":{
+      "backstab": {
         "label": "Backstab",
-        "documentation":""
+        "documentation": ""
       },
-      "bash":{
+      "bash": {
         "label": "Bash",
-        "documentation":""
+        "documentation": ""
       },
-      "blindfighting":{
+      "blindfighting": {
         "label": "Blind fighting",
-        "documentation":""
+        "documentation": ""
       },
-      "blowgunuse":{
+      "blowgunuse": {
         "label": "Blowguns",
-        "documentation":""
+        "documentation": ""
       },
-      "charge":{
+      "charge": {
         "label": "Charge",
-        "documentation":""
+        "documentation": ""
       },
-      "crossbowuse":{
+      "crossbowuse": {
         "label": "Crossbows",
-        "documentation":""
+        "documentation": ""
       },
-      "disarm":{
+      "disarm": {
         "label": "Disarm",
-        "documentation":""
+        "documentation": ""
       },
-      "dualwield":{
+      "dualwield": {
         "label": "Dual wield",
-        "documentation":""
+        "documentation": ""
       },
-      "flee":{
+      "flee": {
         "label": "Flee",
-        "documentation":""
+        "documentation": ""
       },
-      "guarding":{
+      "guarding": {
         "label": "Guard",
-        "documentation":""
+        "documentation": ""
       },
-      "hack":{
+      "hack": {
         "label": "Hack",
-        "documentation":""
+        "documentation": ""
       },
-      "kick":{
+      "kick": {
         "label": "Kick",
-        "documentation":""
+        "documentation": ""
       },
-      "parry":{
+      "parry": {
         "label": "Parry",
-        "documentation":""
+        "documentation": ""
       },
-      "rescue":{
+      "rescue": {
         "label": "Rescue",
-        "documentation":""
+        "documentation": ""
       },
-      "riposte":{
+      "riposte": {
         "label": "Riposte",
-        "documentation":""
+        "documentation": ""
       },
-      "sap":{
+      "sap": {
         "label": "Sap",
-        "documentation":""
+        "documentation": ""
       },
-      "slinguse":{
+      "slinguse": {
         "label": "Sling use",
-        "documentation":""
+        "documentation": ""
       },
-      "shielduse":{
+      "shielduse": {
         "label": "Shield use",
-        "documentation":""
+        "documentation": ""
       },
-      "subdue":{
+      "subdue": {
         "label": "Subdue",
-        "documentation":""
+        "documentation": ""
       },
-      "throw":{
+      "throw": {
         "label": "Throw",
-        "documentation":""
+        "documentation": ""
       },
-      "threaten":{
+      "threaten": {
         "label": "Threaten",
-        "documentation":""
+        "documentation": ""
       },
-      "twohanded":{
+      "twohanded": {
         "label": "Two handed",
-        "documentation":""
+        "documentation": ""
       }
     },
-    "weapons":{
-      "bludgeoningweapons":{
+    "weapons": {
+      "bludgeoningweapons": {
         "label": "Bludgeoning",
-        "documentation":""
+        "documentation": ""
       },
-      "choppingweapons":{
+      "choppingweapons": {
         "label": "Chopping",
-        "documentation":""
+        "documentation": ""
       },
-      "piercingweapons":{
+      "piercingweapons": {
         "label": "Piercing",
-        "documentation":""
+        "documentation": ""
       },
-      "slashingweapons":{
+      "slashingweapons": {
         "label": "Slashing",
-        "documentation":""
+        "documentation": ""
       }
     },
-    "stealth":{
-      "climb":{
+    "stealth": {
+      "climb": {
         "label": "Climb",
-        "documentation":""
+        "documentation": ""
       },
-      "hidecity":{
+      "hidecity": {
         "label": "Hide (City)",
-        "documentation":""
+        "documentation": ""
       },
-      "hidewild":{
+      "hidewild": {
         "label": "Hide (Wild)",
-        "documentation":""
+        "documentation": ""
       },
-      "sneakcity":{
+      "sneakcity": {
         "label": "Sneak (City)",
-        "documentation":""
+        "documentation": ""
       },
-      "sneakwild":{
+      "sneakwild": {
         "label": "Sneak (Wild)",
-        "documentation":""
+        "documentation": ""
       }
     },
-    "manipulation":{
-      "bandage":{
+    "manipulation": {
+      "bandage": {
         "label": "Bandage",
-        "documentation":""
+        "documentation": ""
       },
-      "pick":{
+      "pick": {
         "label": "Pick",
-        "documentation":""
+        "documentation": ""
       },
-      "pilot":{
+      "pilot": {
         "label": "Pilot",
-        "documentation":""
+        "documentation": ""
       },
-      "poisoning":{
+      "poisoning": {
         "label": "Poisoning",
-        "documentation":""
+        "documentation": ""
       },
-      "ride":{
+      "ride": {
         "label": "Ride",
-        "documentation":""
+        "documentation": ""
       },
-      "skinning":{
+      "skinning": {
         "label": "Skinning",
-        "documentation":""
+        "documentation": ""
       },
-      "sleightofhand":{
+      "sleightofhand": {
         "label": "Sleight of hand",
-        "documentation":""
+        "documentation": ""
       },
-      "steal":{
+      "steal": {
         "label": "Steal",
-        "documentation":""
+        "documentation": ""
       }
     },
-    "perception":{
-      "directionsense":{
+    "perception": {
+      "directionsense": {
         "label": "Direction sense",
-        "documentation":""
+        "documentation": ""
       },
-      "forage":{
+      "forage": {
         "label": "Forage",
-        "documentation":""
+        "documentation": ""
       },
-      "huntwild":{
+      "huntwild": {
         "label": "Hunt (Wild)",
-        "documentation":""
+        "documentation": ""
       },
-      "huntcity":{
+      "huntcity": {
         "label": "Hunt (City)",
-        "documentation":""
+        "documentation": ""
       },
-      "listenwild":{
+      "listenwild": {
         "label": "Listen (Wild)",
-        "documentation":""
+        "documentation": ""
       },
-      "listencity":{
+      "listencity": {
         "label": "Listen (City)",
-        "documentation":""
+        "documentation": ""
       },
-      "peek":{
+      "peek": {
         "label": "Peek",
-        "documentation":""
+        "documentation": ""
       },
-      "scanwild":{
+      "scanwild": {
         "label": "Scan (Wild)",
-        "documentation":""
+        "documentation": ""
       },
-      "scancity":{
+      "scancity": {
         "label": "Scan (City)",
-        "documentation":""
+        "documentation": ""
       },
-      "search":{
+      "search": {
         "label": "Search",
-        "documentation":""
+        "documentation": ""
       },
-      "watch":{
+      "watch": {
         "label": "Watch",
-        "documentation":""
+        "documentation": ""
       }
     },
-    "languages":{
-      "sirihish":{
+    "languages": {
+      "sirihish": {
         "label": "Sirihish",
-        "documentation":""
+        "documentation": ""
       },
-      "allundean":{
+      "allundean": {
         "label": "Allundean",
-        "documentation":""
+        "documentation": ""
       },
-      "bendune":{
+      "bendune": {
         "label": "Bendune",
-        "documentation":""
+        "documentation": ""
       },
-      "cavilish":{
+      "cavilish": {
         "label": "Cavilish",
-        "documentation":""
+        "documentation": ""
       },
-      "mirukkim":{
+      "mirukkim": {
         "label": "Mirukkim",
-        "documentation":""
+        "documentation": ""
       }
     },
-    "crafting":{
-      "armormaking":{
+    "crafting": {
+      "armormaking": {
         "label": "Armor Making",
-        "documentation":""
+        "documentation": ""
       },
-      "armorrepair":{
+      "armorrepair": {
         "label": "Armor Repair",
-        "documentation":""
+        "documentation": ""
       },
-      "axemaking":{
+      "axemaking": {
         "label": "Axe making",
-        "documentation":""
+        "documentation": ""
       },
-      "bandagemaking":{
+      "bandagemaking": {
         "label": "Bandagemaking",
-        "documentation":""
+        "documentation": ""
       },
-      "basketweaving":{
+      "basketweaving": {
         "label": "Basket weaving",
-        "documentation":""
+        "documentation": ""
       },
-      "bowmaking":{
+      "bowmaking": {
         "label": "Bow making",
-        "documentation":""
+        "documentation": ""
       },
-      "brew":{
+      "brew": {
         "label": "Brew",
-        "documentation":""
+        "documentation": ""
       },
-      "clayworking":{
+      "clayworking": {
         "label": "Clayworking",
-        "documentation":""
+        "documentation": ""
       },
-      "clothworking":{
+      "clothworking": {
         "label": "Clothworking",
-        "documentation":""
+        "documentation": ""
       },
-      "clubmaking":{
+      "clubmaking": {
         "label": "Club making",
-        "documentation":""
+        "documentation": ""
       },
-      "cooking":{
+      "cooking": {
         "label": "Cooking",
-        "documentation":""
+        "documentation": ""
       },
-      "dyeing":{
+      "dyeing": {
         "label": "Dyeing",
-        "documentation":""
+        "documentation": ""
       },
-      "featherworking":{
+      "featherworking": {
         "label": "Feather Working",
-        "documentation":""
+        "documentation": ""
       },
-      "fletchery":{
+      "fletchery": {
         "label": "Fletchery",
-        "documentation":""
+        "documentation": ""
       },
-      "floristry":{
+      "floristry": {
         "label": "Floristry",
-        "documentation":""
+        "documentation": ""
       },
-      "knifemaking":{
+      "knifemaking": {
         "label": "Knife making",
-        "documentation":""
+        "documentation": ""
       },
-      "instrumentmaking":{
+      "instrumentmaking": {
         "label": "Instrument making",
-        "documentation":""
+        "documentation": ""
       },
-      "jewelrymaking":{
+      "jewelrymaking": {
         "label": "Jewelrymaking",
-        "documentation":""
+        "documentation": ""
       },
-      "leatherworking":{
+      "leatherworking": {
         "label": "Leatherworking",
-        "documentation":""
+        "documentation": ""
       },
-      "lumberjacking":{
+      "lumberjacking": {
         "label": "Lumberjacking",
-        "documentation":""
+        "documentation": ""
       },
-      "pickmaking":{
+      "pickmaking": {
         "label": "Pick making",
-        "documentation":""
+        "documentation": ""
       },
-      "stonecrafting":{
+      "stonecrafting": {
         "label": "Stonecrafting",
-        "documentation":""
+        "documentation": ""
       },
-      "spearmaking":{
+      "spearmaking": {
         "label": "Spear making",
-        "documentation":""
+        "documentation": ""
       },
-      "swordmaking":{
+      "swordmaking": {
         "label": "Sword making",
-        "documentation":""
+        "documentation": ""
       },
-      "tanning":{
+      "tanning": {
         "label": "Tanning",
-        "documentation":""
+        "documentation": ""
       },
-      "tentmaking":{
+      "tentmaking": {
         "label": "Tent making",
-        "documentation":""
+        "documentation": ""
       },
-      "toolmaking":{
+      "toolmaking": {
         "label": "Toolmaking",
-        "documentation":""
+        "documentation": ""
       },
-      "wagonmaking":{
+      "wagonmaking": {
         "label": "Wagonmaking",
-        "documentation":""
+        "documentation": ""
       },
-      "woodworking":{
+      "woodworking": {
         "label": "Woodworking",
-        "documentation":""
+        "documentation": ""
       }
     },
-    "barter":{
-      "haggle":{
+    "barter": {
+      "haggle": {
         "label": "Haggle",
-        "documentation":""
+        "documentation": ""
       },
-      "value":{
+      "value": {
         "label": "Value",
-        "documentation":""
+        "documentation": ""
       }
     },
     "perks": {
-      "languagebonus":{
-        "label":"Adept at picking up new languages",
-        "documentation":""
+      "accentbonus": {
+        "label": "Adept at picking up new accents",
+        "documentation": ""
       },
-      "custom":{
-        "label":"Custom Crafting",
-        "documentation":""
+      "languagebonus": {
+        "label": "Adept at picking up new languages",
+        "documentation": ""
       },
-      "foragefoodwild":{
-        "label":"Forage for food in the wilderness",
-        "documentation":""
+      "custom": {
+        "label": "Custom Crafting",
+        "documentation": ""
       },
-      "foragefoodcity":{
-        "label":"Forage for scraps in cities",
-        "documentation":""
+      "foragefoodwild": {
+        "label": "Forage for food in the wilderness",
+        "documentation": ""
       },
-      "rangerridecharge":{
-        "label":"Bonus to ride and charge",
-        "documentation":""
+      "foragefoodcity": {
+        "label": "Forage for scraps in cities",
+        "documentation": ""
       },
-      "rangerterrain":{
-        "label":"Bonus navigating difficult terrain",
-        "documentation":""
+      "rangerridecharge": {
+        "label": "Bonus to ride and charge",
+        "documentation": ""
       },
-      "recovery":{
-        "label":"Fair recovery from exertion",
-        "documentation":""
+      "rangerterrain": {
+        "label": "Bonus navigating difficult terrain",
+        "documentation": ""
       },
-      "goodrecovery":{
-        "label":"Good recovery from exertion",
-        "documentation":""
+      "recovery": {
+        "label": "Fair recovery from exertion",
+        "documentation": ""
       },
-      "hitchdouble":{
-        "label":"Hitch two mounts",
-        "documentation":""
+      "goodrecovery": {
+        "label": "Good recovery from exertion",
+        "documentation": ""
       },
-      "alcoholtolerance":{
-        "label":"Increased tolerance for alcohol",
-        "documentation":""
+      "hitchdouble": {
+        "label": "Hitch two mounts",
+        "documentation": ""
       },
-      "paintolerance":{
-        "label":"Increased tolerance for pain",
-        "documentation":""
+      "alcoholtolerance": {
+        "label": "Increased tolerance for alcohol",
+        "documentation": ""
       },
-      "tamemount":{
-        "label":"May eventually tame mounts",
-        "documentation":""
+      "paintolerance": {
+        "label": "Increased tolerance for pain",
+        "documentation": ""
       },
-      "wildquit":{
-        "label":"Wilderness quit",
-        "documentation":""
+      "tamemount": {
+        "label": "May eventually tame mounts",
+        "documentation": ""
       },
-      "rukkian":{
-        "label":"Rukkian (Earth) Magick",
-        "documentation":""
+      "wildquit": {
+        "label": "Wilderness quit",
+        "documentation": ""
       },
-      "sukkrathi":{
-        "label":"Suk-Krathi (Fire) Magick",
-        "documentation":""
+      "rukkian": {
+        "label": "Rukkian (Earth) Magick",
+        "documentation": ""
       },
-      "vivaduan":{
-        "label":"Vivaduan (Water) Magick",
-        "documentation":""
+      "sukkrathi": {
+        "label": "Suk-Krathi (Fire) Magick",
+        "documentation": ""
       },
-      "whiran":{
-        "label":"Whiran (Wind) Magick",
-        "documentation":""
+      "vivaduan": {
+        "label": "Vivaduan (Water) Magick",
+        "documentation": ""
       },
-      "drovian":{
-        "label":"Drovian (Shadow) Magick",
-        "documentation":""
+      "whiran": {
+        "label": "Whiran (Wind) Magick",
+        "documentation": ""
       },
-      "elkrosian":{
-        "label":"Elkrosian (Electric) Magick",
-        "documentation":""
+      "drovian": {
+        "label": "Drovian (Shadow) Magick",
+        "documentation": ""
+      },
+      "elkrosian": {
+        "label": "Elkrosian (Electric) Magick",
+        "documentation": ""
       }
     },
     "otherperks": {
-      "poisontolerance":{
-        "label":"Increased tolerance for poisons",
-        "documentation":""
+      "poisontolerance": {
+        "label": "Increased tolerance for poisons",
+        "documentation": ""
       },
-      "magicktolerance":{
-        "label":"Increased tolerance for magick",
-        "documentation":""
+      "magicktolerance": {
+        "label": "Increased tolerance for magick",
+        "documentation": ""
       },
-      "nomount":{
-        "label":"Cannot ride mounts or wagons; better running endurance",
-        "documentation":""
+      "nomount": {
+        "label": "Cannot ride mounts or wagons; better running endurance",
+        "documentation": ""
       },
-      "nomagick":{
-        "label":"Cannot use magick",
-        "documentation":""
+      "nomagick": {
+        "label": "Cannot use magick",
+        "documentation": ""
       }
     }
   },
@@ -504,448 +508,448 @@
     "stalker"
   ],
   "guilds": {
-    "-":{
-      "label":"-",
-      "karma":0,
-      "documentation":"",
-      "perks":[],
-      "languages":[],
-      "master":[],
-      "advanced":[],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "branching":{}
+    "-": {
+      "label": "-",
+      "karma": 0,
+      "documentation": "",
+      "perks": [],
+      "languages": [],
+      "master": [],
+      "advanced": [],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "branching": {}
     },
-    "enforcer":{
-      "label":"Enforcer",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Enforcer",
-      "perks":[],
-      "languages":[],
-      "master":["contact","barrier","bash","crossbowuse","flee","guarding","kick","parry","threaten","shielduse","dualwield","twohanded","slashingweapons","piercingweapons","choppingweapons","bludgeoningweapons"],
-      "advanced":["subdue","hidecity"],
-      "journeyman":["forage","cooking"],
-      "exmaster":["expel","blowgunuse","backstab","blindfighting","disarm","rescue","sap","throw"],
-      "exadvanced":["sneakcity","climb","sleightofhand"],
-      "exjourneyman":[],
-      "branching":{
-        "expel":"barrier",
-        "sneakcity":"hidecity",
-        "sleightofhand":"climb",
-        "climb":"hidecity",
-        "disarm":"bash",
-        "blindfighting":"parry",
-        "rescue":"guarding",
-        "backstab":"piercingweapons",
-        "sap":"bludgeoningweapons",
-        "throw":"crossbowuse",
-        "blowgunuse":"crossbowuse"
+    "enforcer": {
+      "label": "Enforcer",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Enforcer",
+      "perks": [],
+      "languages": [],
+      "master": [ "contact", "barrier", "bash", "crossbowuse", "flee", "guarding", "kick", "parry", "threaten", "shielduse", "dualwield", "twohanded", "slashingweapons", "piercingweapons", "choppingweapons", "bludgeoningweapons" ],
+      "advanced": [ "subdue", "hidecity" ],
+      "journeyman": [ "forage", "cooking" ],
+      "exmaster": [ "expel", "blowgunuse", "backstab", "blindfighting", "disarm", "rescue", "sap", "throw" ],
+      "exadvanced": [ "sneakcity", "climb", "sleightofhand" ],
+      "exjourneyman": [],
+      "branching": {
+        "expel": "barrier",
+        "sneakcity": "hidecity",
+        "sleightofhand": "climb",
+        "climb": "hidecity",
+        "disarm": "bash",
+        "blindfighting": "parry",
+        "rescue": "guarding",
+        "backstab": "piercingweapons",
+        "sap": "bludgeoningweapons",
+        "throw": "crossbowuse",
+        "blowgunuse": "crossbowuse"
       }
     },
-    "infiltrator":{
-      "label":"Infiltrator",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Infiltrator",
-      "perks":["foragefoodcity"],
-      "languages":[],
-      "mastercraft":[],
-      "master":["contact","barrier","backstab","crossbowuse","throw","dualwield","twohanded","sneakcity","hidecity"],
-      "advanced":["flee","parry","sap","shielduse","slashingweapons","piercingweapons","choppingweapons","bludgeoningweapons","climb","poisoning","sleightofhand","huntcity","listencity","search","watch","forage","value","cooking"],
-      "journeyman":[],
-      "exmaster":["expel","blowgunuse"],
-      "exadvanced":["bash","blindfighting","pick","peek","scancity"],
-      "exjourneyman":["subdue","pickmaking"],
-      "branching":{
-        "expel":"barrier",
-        "peek":"sneakcity",
-        "scancity":"hidecity",
-        "bash":"parry",
-        "blindfighting":"parry",
-        "blowgunuse":"poisoning",
-        "subdue":"flee",
-        "pick":"sleightofhand",
-        "pickmaking":"pick"
+    "infiltrator": {
+      "label": "Infiltrator",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Infiltrator",
+      "perks": [ "foragefoodcity" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [ "contact", "barrier", "backstab", "crossbowuse", "throw", "dualwield", "twohanded", "sneakcity", "hidecity" ],
+      "advanced": [ "flee", "parry", "sap", "shielduse", "slashingweapons", "piercingweapons", "choppingweapons", "bludgeoningweapons", "climb", "poisoning", "sleightofhand", "huntcity", "listencity", "search", "watch", "forage", "value", "cooking" ],
+      "journeyman": [],
+      "exmaster": [ "expel", "blowgunuse" ],
+      "exadvanced": [ "bash", "blindfighting", "pick", "peek", "scancity" ],
+      "exjourneyman": [ "subdue", "pickmaking" ],
+      "branching": {
+        "expel": "barrier",
+        "peek": "sneakcity",
+        "scancity": "hidecity",
+        "bash": "parry",
+        "blindfighting": "parry",
+        "blowgunuse": "poisoning",
+        "subdue": "flee",
+        "pick": "sleightofhand",
+        "pickmaking": "pick"
       }
     },
-    "miscreant":{
-      "label":"Miscreant",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Miscreant",
-      "perks":["foragefoodcity"],
-      "languages":[],
-      "mastercraft":[],
-      "master":["contact","barrier","sneakcity","hidecity","climb","pick","poisoning","sleightofhand","steal","huntcity","listencity","peek","scancity","search","watch","forage"],
-      "advanced":["crossbowuse","flee","parry","throw","shielduse","dualwield","twohanded","piercingweapons","bludgeoningweapons","cooking"],
-      "journeyman":[],
-      "exmaster":["expel"],
-      "exadvanced":["backstab","blindfighting","blowgunuse","sap","haggle","value","brew","pickmaking"],
-      "exjourneyman":[],
-      "branching":{
-        "expel":"barrier",
-        "value":"steal",
-        "haggle":"value",
-        "pickmaking":"pick",
-        "blindfighting":"parry",
-        "backstab":"throw",
-        "sap":"throw",
-        "blowgunuse":"poisoning",
-        "brew":"cooking"
+    "miscreant": {
+      "label": "Miscreant",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Miscreant",
+      "perks": [ "foragefoodcity" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [ "contact", "barrier", "sneakcity", "hidecity", "climb", "pick", "poisoning", "sleightofhand", "steal", "huntcity", "listencity", "peek", "scancity", "search", "watch", "forage" ],
+      "advanced": [ "crossbowuse", "flee", "parry", "throw", "shielduse", "dualwield", "twohanded", "piercingweapons", "bludgeoningweapons", "cooking" ],
+      "journeyman": [],
+      "exmaster": [ "expel" ],
+      "exadvanced": [ "backstab", "blindfighting", "blowgunuse", "sap", "haggle", "value", "brew", "pickmaking" ],
+      "exjourneyman": [],
+      "branching": {
+        "expel": "barrier",
+        "value": "steal",
+        "haggle": "value",
+        "pickmaking": "pick",
+        "blindfighting": "parry",
+        "backstab": "throw",
+        "sap": "throw",
+        "blowgunuse": "poisoning",
+        "brew": "cooking"
       }
     },
-    "pilferer":{
-      "label":"Pilferer",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Pilferer",
-      "perks":[],
-      "languages":[],
-      "master":["contact","barrier","value","clothworking","dyeing","knifemaking","stonecrafting","toolmaking","cooking","steal","hidecity"],
-      "advanced":["crossbowuse","throw","dualwield","twohanded","climb","huntcity","listencity","peek","scancity","watch","forage","pickmaking"],
-      "journeyman":["flee","shielduse","piercingweapons","bludgeoningweapons"],
-      "exmaster":["expel","sleightofhand","haggle","bowmaking","brew","clayworking","clubmaking","fletchery","jewelrymaking","sneakcity"],
-      "exadvanced":["pick","search"],
-      "exjourneyman":["sap"],
-      "branching":{
-        "expel":"barrier",
-        "search":"peek",
-        "sneakcity":"hidecity",
-        "sap":"throw",
-        "haggle":"value",
-        "pick":"pickmaking",
-        "clubmaking":"knifemaking",
-        "brew":"cooking",
-        "clayworking":"stonecrafting",
-        "jewelrymaking":"clayworking",
-        "sleightofhand":"steal",
-        "fletchery":"toolmaking",
-        "bowmaking":"fletchery"
+    "pilferer": {
+      "label": "Pilferer",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Pilferer",
+      "perks": [],
+      "languages": [],
+      "master": [ "contact", "barrier", "value", "clothworking", "dyeing", "knifemaking", "stonecrafting", "toolmaking", "cooking", "steal", "hidecity" ],
+      "advanced": [ "crossbowuse", "throw", "dualwield", "twohanded", "climb", "huntcity", "listencity", "peek", "scancity", "watch", "forage", "pickmaking" ],
+      "journeyman": [ "flee", "shielduse", "piercingweapons", "bludgeoningweapons" ],
+      "exmaster": [ "expel", "sleightofhand", "haggle", "bowmaking", "brew", "clayworking", "clubmaking", "fletchery", "jewelrymaking", "sneakcity" ],
+      "exadvanced": [ "pick", "search" ],
+      "exjourneyman": [ "sap" ],
+      "branching": {
+        "expel": "barrier",
+        "search": "peek",
+        "sneakcity": "hidecity",
+        "sap": "throw",
+        "haggle": "value",
+        "pick": "pickmaking",
+        "clubmaking": "knifemaking",
+        "brew": "cooking",
+        "clayworking": "stonecrafting",
+        "jewelrymaking": "clayworking",
+        "sleightofhand": "steal",
+        "fletchery": "toolmaking",
+        "bowmaking": "fletchery"
       }
     },
-    "fence":{
-      "label":"Fence",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Fence",
-      "perks":["foragefoodcity","custom"],
-      "languages":["allundean"],
-      "mastercraft":[],
-      "master":["contact","barrier","haggle","value","clayworking","clothworking","dyeing","fletchery","knifemaking","stonecrafting","tanning","toolmaking","cooking"],
-      "advanced":["sneakcity","hidecity","peek"],
-      "journeyman":["shielduse","dualwield","twohanded","forage"],
-      "exmaster":["expel","armormaking","armorrepair","bandagemaking","brew","clubmaking","featherworking","jewelrymaking","leatherworking","pickmaking","spearmaking","swordmaking"],
-      "exadvanced":["poisoning","sleightofhand","steal","listencity"],
-      "exjourneyman":["piercingweapons","crossbowuse"],
-      "branching":{
-        "expel":"barrier",
-        "steal":"peek",
-        "listencity":"sneakcity",
-        "leatherworking":"tanning",
-        "armormaking":"leatherworking",
-        "armorrepair":"armormaking",
-        "featherworking":"fletchery",
-        "crossbowuse":"fletchery",
-        "piercingweapons":"knifemaking",
-        "swordmaking":"knifemaking",
-        "spearmaking":"knifemaking",
-        "clubmaking":"knifemaking",
-        "brew":"cooking",
-        "poisoning":"brew",
-        "jewelrymaking":"stonecrafting",
-        "bandagemaking":"clothworking",
-        "pickmaking":"toolmaking",
-        "sleightofhand":"pickmaking"
+    "fence": {
+      "label": "Fence",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Fence",
+      "perks": [ "foragefoodcity", "custom" ],
+      "languages": [ "allundean" ],
+      "mastercraft": [],
+      "master": [ "contact", "barrier", "haggle", "value", "clayworking", "clothworking", "dyeing", "fletchery", "knifemaking", "stonecrafting", "tanning", "toolmaking", "cooking" ],
+      "advanced": [ "sneakcity", "hidecity", "peek" ],
+      "journeyman": [ "shielduse", "dualwield", "twohanded", "forage" ],
+      "exmaster": [ "expel", "armormaking", "armorrepair", "bandagemaking", "brew", "clubmaking", "featherworking", "jewelrymaking", "leatherworking", "pickmaking", "spearmaking", "swordmaking" ],
+      "exadvanced": [ "poisoning", "sleightofhand", "steal", "listencity" ],
+      "exjourneyman": [ "piercingweapons", "crossbowuse" ],
+      "branching": {
+        "expel": "barrier",
+        "steal": "peek",
+        "listencity": "sneakcity",
+        "leatherworking": "tanning",
+        "armormaking": "leatherworking",
+        "armorrepair": "armormaking",
+        "featherworking": "fletchery",
+        "crossbowuse": "fletchery",
+        "piercingweapons": "knifemaking",
+        "swordmaking": "knifemaking",
+        "spearmaking": "knifemaking",
+        "clubmaking": "knifemaking",
+        "brew": "cooking",
+        "poisoning": "brew",
+        "jewelrymaking": "stonecrafting",
+        "bandagemaking": "clothworking",
+        "pickmaking": "toolmaking",
+        "sleightofhand": "pickmaking"
       }
     },
-    "raider":{
-      "label":"Raider",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Raider",
-      "perks":["hitchdouble"],
-      "languages":[],
-      "mastercraft":[],
-      "master":["contact","barrier","archery","bash","flee","kick","parry","rescue","slinguse","threaten","shielduse","dualwield","twohanded","slashingweapons","piercingweapons","choppingweapons","bludgeoningweapons"],
-      "advanced":["subdue","climb","listenwild","ride","directionsense"],
-      "journeyman":["forage","cooking"],
-      "exmaster":["expel","blindfighting","crossbowuse","charge","disarm","guarding","throw"],
-      "exadvanced":["sneakwild","hidewild","scanwild"],
-      "exjourneyman":[],
-      "branching":{
-        "expel":"barrier",
-        "throw":"archery",
-        "crossbowuse":"archery",
-        "disarm":"kick",
-        "guarding":"rescue",
-        "blindfighting":"parry",
-        "sneakwild":"climb",
-        "hidewild":"climb",
-        "charge":"ride",
-        "scanwild":"directionsense"
+    "raider": {
+      "label": "Raider",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Raider",
+      "perks": [ "hitchdouble" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [ "contact", "barrier", "archery", "bash", "flee", "kick", "parry", "rescue", "slinguse", "threaten", "shielduse", "dualwield", "twohanded", "slashingweapons", "piercingweapons", "choppingweapons", "bludgeoningweapons" ],
+      "advanced": [ "subdue", "climb", "listenwild", "ride", "directionsense" ],
+      "journeyman": [ "forage", "cooking" ],
+      "exmaster": [ "expel", "blindfighting", "crossbowuse", "charge", "disarm", "guarding", "throw" ],
+      "exadvanced": [ "sneakwild", "hidewild", "scanwild" ],
+      "exjourneyman": [],
+      "branching": {
+        "expel": "barrier",
+        "throw": "archery",
+        "crossbowuse": "archery",
+        "disarm": "kick",
+        "guarding": "rescue",
+        "blindfighting": "parry",
+        "sneakwild": "climb",
+        "hidewild": "climb",
+        "charge": "ride",
+        "scanwild": "directionsense"
       }
     },
-    "scout":{
-      "label":"Scout",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Scout",
-      "perks":["tamemount","wildquit","hitchdouble","foragefoodwild","recovery","rangerterrain"],
-      "languages":[],
-      "mastercraft":[],
-      "master":["contact","barrier","archery","slinguse","throw","dualwield","twohanded","skinning","scanwild","search"],
-      "advanced":["flee","parry","shielduse","slashingweapons","piercingweapons","choppingweapons","bludgeoningweapons","climb","bandage","poisoning","ride","directionsense","huntwild","listenwild","forage","fletchery","cooking"],
-      "journeyman":[],
-      "exmaster":["expel","blowgunuse","crossbowuse","guarding","rescue","sneakwild","hidewild"],
-      "exadvanced":["blindfighting","charge","kick","bandagemaking"],
-      "exjourneyman":[],
-      "branching":{
-        "expel":"barrier",
-        "crossbowuse":"archery",
-        "blowgunuse":"archery",
-        "kick":"parry",
-        "rescue":"parry",
-        "guarding":"parry",
-        "blindfighting":"parry",
-        "sneakwild":"climb",
-        "bandagemaking":"bandage",
-        "hidewild":"scanwild",
-        "charge":"ride"
+    "scout": {
+      "label": "Scout",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Scout",
+      "perks": [ "tamemount", "wildquit", "hitchdouble", "foragefoodwild", "recovery", "rangerterrain" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [ "contact", "barrier", "archery", "slinguse", "throw", "dualwield", "twohanded", "skinning", "scanwild", "search" ],
+      "advanced": [ "flee", "parry", "shielduse", "slashingweapons", "piercingweapons", "choppingweapons", "bludgeoningweapons", "climb", "bandage", "poisoning", "ride", "directionsense", "huntwild", "listenwild", "forage", "fletchery", "cooking" ],
+      "journeyman": [],
+      "exmaster": [ "expel", "blowgunuse", "crossbowuse", "guarding", "rescue", "sneakwild", "hidewild" ],
+      "exadvanced": [ "blindfighting", "charge", "kick", "bandagemaking" ],
+      "exjourneyman": [],
+      "branching": {
+        "expel": "barrier",
+        "crossbowuse": "archery",
+        "blowgunuse": "archery",
+        "kick": "parry",
+        "rescue": "parry",
+        "guarding": "parry",
+        "blindfighting": "parry",
+        "sneakwild": "climb",
+        "bandagemaking": "bandage",
+        "hidewild": "scanwild",
+        "charge": "ride"
       }
     },
-    "stalker":{
-      "label":"Stalker",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Stalker",
-      "perks":["foragefoodwild","wildquit","goodrecovery","hitchdouble","tamemount","rangerridecharge","rangerterrain"],
-      "languages":[],
-      "mastercraft":[],
-      "master":["contact","barrier","sneakwild","hidewild","climb","bandage","poisoning","skinning","ride","directionsense","huntwild","listenwild","scanwild","watch","forage"],
-      "advanced":["archery","crossbowuse","flee","parry","throw","shielduse","dualwield","twohanded","piercingweapons","bludgeoningweapons","cooking"],
-      "journeyman":[],
-      "exmaster":["expel"],
-      "exadvanced":["blindfighting","blowgunuse","charge","guarding","rescue","bandagemaking","brew","fletchery","floristry","leatherworking","tanning"],
-      "exjourneyman":[],
-      "branching":{
-        "expel":"barrier",
-        "rescue":"parry",
-        "guarding":"parry",
-        "blindfighting":"parry",
-        "fletchery":"huntwild",
-        "floristry":"huntwild",
-        "bandagemaking":"bandage",
-        "charge":"ride",
-        "blowgunuse":"poisoning",
-        "tanning":"skinning",
-        "leatherworking":"tanning",
-        "brew":"cooking"
+    "stalker": {
+      "label": "Stalker",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Stalker",
+      "perks": [ "foragefoodwild", "wildquit", "goodrecovery", "hitchdouble", "tamemount", "rangerridecharge", "rangerterrain" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [ "contact", "barrier", "sneakwild", "hidewild", "climb", "bandage", "poisoning", "skinning", "ride", "directionsense", "huntwild", "listenwild", "scanwild", "watch", "forage" ],
+      "advanced": [ "archery", "crossbowuse", "flee", "parry", "throw", "shielduse", "dualwield", "twohanded", "piercingweapons", "bludgeoningweapons", "cooking" ],
+      "journeyman": [],
+      "exmaster": [ "expel" ],
+      "exadvanced": [ "blindfighting", "blowgunuse", "charge", "guarding", "rescue", "bandagemaking", "brew", "fletchery", "floristry", "leatherworking", "tanning" ],
+      "exjourneyman": [],
+      "branching": {
+        "expel": "barrier",
+        "rescue": "parry",
+        "guarding": "parry",
+        "blindfighting": "parry",
+        "fletchery": "huntwild",
+        "floristry": "huntwild",
+        "bandagemaking": "bandage",
+        "charge": "ride",
+        "blowgunuse": "poisoning",
+        "tanning": "skinning",
+        "leatherworking": "tanning",
+        "brew": "cooking"
       }
     },
-    "adventurer":{
-      "label":"Adventurer",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Adventurer",
-      "perks":["wildquit","recovery","hitchdouble","tamemount","foragefoodwild"],
-      "languages":[],
-      "mastercraft":[],
-      "master":["contact","barrier","pilot","skinning","armorrepair","bandagemaking","fletchery","lumberjacking","spearmaking","toolmaking","cooking"],
-      "advanced":["archery","dualwield","twohanded","sneakwild","climb","ride","directionsense","huntwild","listenwild","scanwild","forage"],
-      "journeyman":["flee","shielduse","piercingweapons","bludgeoningweapons"],
-      "exmaster":["expel","brew","bowmaking","floristry","knifemaking","leatherworking","tanning","tentmaking"],
-      "exadvanced":["crossbowuse","rescue","hidewild","bandage","search"],
-      "exjourneyman":["parry"],
-      "branching":{
-        "expel":"barrier",
-        "crossbowuse":"archery",
-        "hidewild":"scanwild",
-        "search":"scanwild",
-        "parry":"flee",
-        "rescue":"parry",
-        "bowmaking":"fletchery",
-        "knifemaking":"fletchery",
-        "bandage":"bandagemaking",
-        "brew":"cooking",
-        "floristry":"brew",
-        "tanning":"toolmaking",
-        "leatherworking":"tanning",
-        "tentmaking":"toolmaking"
+    "adventurer": {
+      "label": "Adventurer",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Adventurer",
+      "perks": [ "wildquit", "recovery", "hitchdouble", "tamemount", "foragefoodwild" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [ "contact", "barrier", "pilot", "skinning", "armorrepair", "bandagemaking", "fletchery", "lumberjacking", "spearmaking", "toolmaking", "cooking" ],
+      "advanced": [ "archery", "dualwield", "twohanded", "sneakwild", "climb", "ride", "directionsense", "huntwild", "listenwild", "scanwild", "forage" ],
+      "journeyman": [ "flee", "shielduse", "piercingweapons", "bludgeoningweapons" ],
+      "exmaster": [ "expel", "brew", "bowmaking", "floristry", "knifemaking", "leatherworking", "tanning", "tentmaking" ],
+      "exadvanced": [ "crossbowuse", "rescue", "hidewild", "bandage", "search" ],
+      "exjourneyman": [ "parry" ],
+      "branching": {
+        "expel": "barrier",
+        "crossbowuse": "archery",
+        "hidewild": "scanwild",
+        "search": "scanwild",
+        "parry": "flee",
+        "rescue": "parry",
+        "bowmaking": "fletchery",
+        "knifemaking": "fletchery",
+        "bandage": "bandagemaking",
+        "brew": "cooking",
+        "floristry": "brew",
+        "tanning": "toolmaking",
+        "leatherworking": "tanning",
+        "tentmaking": "toolmaking"
       }
     },
-    "dunetrader":{
-      "label":"Dune Trader",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Dune%20Trader",
-      "perks":["foragefoodwild","hitchdouble","custom"],
-      "languages":["bendune"],
-      "mastercraft":[],
-      "master":["contact","barrier","pilot","haggle","value","axemaking","basketweaving","bowmaking","dyeing","fletchery","lumberjacking","spearmaking","tentmaking","toolmaking","cooking"],
-      "advanced":["skinning","ride","directionsense","scanwild"],
-      "journeyman":["shielduse","dualwield","twohanded","forage"],
-      "exmaster":["expel","armormaking","armorrepair","bandagemaking","brew","clothworking","clubmaking","featherworking","floristry","instrumentmaking","jewelrymaking","knifemaking","leatherworking","stonecrafting","tanning","woodworking"],
-      "exadvanced":["listenwild"],
-      "exjourneyman":["archery","crossbowuse","piercingweapons"],
-      "branching":{
-        "expel":"barrier",
-        "listenwild":"scanwild",
-        "tanning":"skinning",
-        "featherworking":"skinning",
-        "leatherworking":"skinning",
-        "armorrepair":"leatherworking",
-        "armormaking":"armorrepair",
-        "floristry":"forage",
-        "stonecrafting":"forage",
-        "jewelrymaking":"stonecrafting",
-        "woodworking":"lumberjacking",
-        "instrumentmaking":"woodworking",
-        "archery":"bowmaking",
-        "crossbowuse":"archery",
-        "clubmaking":"bowmaking",
-        "brew":"cooking",
-        "bandagemaking":"tentmaking",
-        "clothworking":"tentmaking",
-        "piercingweapons":"spearmaking",
-        "knifemaking":"spearmaking"
+    "dunetrader": {
+      "label": "Dune Trader",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Dune%20Trader",
+      "perks": [ "foragefoodwild", "hitchdouble", "custom" ],
+      "languages": [ "bendune" ],
+      "mastercraft": [],
+      "master": [ "contact", "barrier", "pilot", "haggle", "value", "axemaking", "basketweaving", "bowmaking", "dyeing", "fletchery", "lumberjacking", "spearmaking", "tentmaking", "toolmaking", "cooking" ],
+      "advanced": [ "skinning", "ride", "directionsense", "scanwild" ],
+      "journeyman": [ "shielduse", "dualwield", "twohanded", "forage" ],
+      "exmaster": [ "expel", "armormaking", "armorrepair", "bandagemaking", "brew", "clothworking", "clubmaking", "featherworking", "floristry", "instrumentmaking", "jewelrymaking", "knifemaking", "leatherworking", "stonecrafting", "tanning", "woodworking" ],
+      "exadvanced": [ "listenwild" ],
+      "exjourneyman": [ "archery", "crossbowuse", "piercingweapons" ],
+      "branching": {
+        "expel": "barrier",
+        "listenwild": "scanwild",
+        "tanning": "skinning",
+        "featherworking": "skinning",
+        "leatherworking": "skinning",
+        "armorrepair": "leatherworking",
+        "armormaking": "armorrepair",
+        "floristry": "forage",
+        "stonecrafting": "forage",
+        "jewelrymaking": "stonecrafting",
+        "woodworking": "lumberjacking",
+        "instrumentmaking": "woodworking",
+        "archery": "bowmaking",
+        "crossbowuse": "archery",
+        "clubmaking": "bowmaking",
+        "brew": "cooking",
+        "bandagemaking": "tentmaking",
+        "clothworking": "tentmaking",
+        "piercingweapons": "spearmaking",
+        "knifemaking": "spearmaking"
       }
     },
-    "fighter":{
-      "label":"Fighter",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Fighter",
-      "perks":["alcoholtolerance"],
-      "languages":[],
-      "mastercraft":[],
-      "master":["contact","barrier","bash","crossbowuse","disarm","flee","guarding","hack","kick","parry","rescue","riposte","slinguse","shielduse","dualwield","twohanded","slashingweapons","piercingweapons","choppingweapons","bludgeoningweapons"],
-      "advanced":["subdue","listencity"],
-      "journeyman":["forage","cooking"],
-      "exmaster":["expel","archery","blindfighting","threaten","throw"],
-      "exadvanced":["bandage","armorrepair"],
-      "exjourneyman":["watch"],
-      "branching":{
-        "expel":"barrier",
-        "bandage":"parry",
-        "blindfighting":"parry",
-        "watch":"listencity",
-        "threaten":"guarding",
-        "armorrepair":"shielduse",
-        "archery":"crossbowuse",
-        "throw":"slinguse"
+    "fighter": {
+      "label": "Fighter",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Fighter",
+      "perks": [ "alcoholtolerance" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [ "contact", "barrier", "bash", "crossbowuse", "disarm", "flee", "guarding", "hack", "kick", "parry", "rescue", "riposte", "slinguse", "shielduse", "dualwield", "twohanded", "slashingweapons", "piercingweapons", "choppingweapons", "bludgeoningweapons" ],
+      "advanced": [ "subdue", "listencity" ],
+      "journeyman": [ "forage", "cooking" ],
+      "exmaster": [ "expel", "archery", "blindfighting", "threaten", "throw" ],
+      "exadvanced": [ "bandage", "armorrepair" ],
+      "exjourneyman": [ "watch" ],
+      "branching": {
+        "expel": "barrier",
+        "bandage": "parry",
+        "blindfighting": "parry",
+        "watch": "listencity",
+        "threaten": "guarding",
+        "armorrepair": "shielduse",
+        "archery": "crossbowuse",
+        "throw": "slinguse"
       }
     },
-    "soldier":{
-      "label":"Soldier",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Soldier",
-      "perks":["alcoholtolerance","paintolerance"],
-      "languages":[],
-      "mastercraft":[],
-      "master":["contact","barrier","crossbowuse","guarding","rescue","slinguse","dualwield","twohanded","scancity","subdue"],
-      "advanced":["bash","flee","kick","parry","shielduse","slashingweapons","piercingweapons","choppingweapons","bludgeoningweapons","bandage","listencity","forage","armorrepair","bandagemaking","fletchery","cooking"],
-      "journeyman":[],
-      "exmaster":["expel","archery","hack","riposte"],
-      "exadvanced":["disarm","watch","axemaking","clubmaking","knifemaking","spearmaking","swordmaking"],
-      "exjourneyman":[],
-      "branching":{
-        "expel":"barrier",
-        "disarm":"parry",
-        "watch":"listencity",
-        "riposte":"slashingweapons",
-        "hack":"choppingweapons",
-        "knifemaking":"fletchery",
-        "swordmaking":"knifemaking",
-        "spearmaking":"fletchery",
-        "axemaking":"spearmaking",
-        "clubmaking":"fletchery",
-        "archery":"crossbowuse"
+    "soldier": {
+      "label": "Soldier",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Soldier",
+      "perks": [ "alcoholtolerance", "paintolerance" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [ "contact", "barrier", "crossbowuse", "guarding", "rescue", "slinguse", "dualwield", "twohanded", "scancity", "subdue" ],
+      "advanced": [ "bash", "flee", "kick", "parry", "shielduse", "slashingweapons", "piercingweapons", "choppingweapons", "bludgeoningweapons", "bandage", "listencity", "forage", "armorrepair", "bandagemaking", "fletchery", "cooking" ],
+      "journeyman": [],
+      "exmaster": [ "expel", "archery", "hack", "riposte" ],
+      "exadvanced": [ "disarm", "watch", "axemaking", "clubmaking", "knifemaking", "spearmaking", "swordmaking" ],
+      "exjourneyman": [],
+      "branching": {
+        "expel": "barrier",
+        "disarm": "parry",
+        "watch": "listencity",
+        "riposte": "slashingweapons",
+        "hack": "choppingweapons",
+        "knifemaking": "fletchery",
+        "swordmaking": "knifemaking",
+        "spearmaking": "fletchery",
+        "axemaking": "spearmaking",
+        "clubmaking": "fletchery",
+        "archery": "crossbowuse"
       }
     },
-    "laborer":{
-      "label":"Laborer",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Laborer",
-      "perks":["alcoholtolerance","paintolerance"],
-      "languages":[],
-      "mastercraft":[],
-      "master":["contact","barrier","bandage","listencity","scancity","watch","forage"],
-      "advanced":["crossbowuse","flee","guarding","kick","parry","rescue","slinguse","shielduse","dualwield","twohanded","slashingweapons","piercingweapons","choppingweapons","bludgeoningweapons","armorrepair","bandagemaking","fletchery","knifemaking","lumberjacking","toolmaking","cooking"],
-      "journeyman":[],
-      "exmaster":["expel"],
-      "exadvanced":["bash","disarm","hack","axemaking","basketweaving","clayworking","clothworking","stonecrafting","swordmaking","tanning"],
-      "exjourneyman":[],
-      "exapprentice":["subdue"],
-      "branching":{
-        "expel":"barrier",
-        "disarm":"parry",
-        "bash":"shielduse",
-        "stonecrafting":"forage",
-        "clayworking":"forage",
-        "subdue":"flee",
-        "swordmaking":"fletchery",
-        "basketweaving":"lumberjacking",
-        "clothworking":"basketweaving",
-        "axemaking":"lumberjacking",
-        "hack":"axemaking",
-        "tanning":"toolmaking"
+    "laborer": {
+      "label": "Laborer",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Laborer",
+      "perks": [ "alcoholtolerance", "paintolerance" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [ "contact", "barrier", "bandage", "listencity", "scancity", "watch", "forage" ],
+      "advanced": [ "crossbowuse", "flee", "guarding", "kick", "parry", "rescue", "slinguse", "shielduse", "dualwield", "twohanded", "slashingweapons", "piercingweapons", "choppingweapons", "bludgeoningweapons", "armorrepair", "bandagemaking", "fletchery", "knifemaking", "lumberjacking", "toolmaking", "cooking" ],
+      "journeyman": [],
+      "exmaster": [ "expel" ],
+      "exadvanced": [ "bash", "disarm", "hack", "axemaking", "basketweaving", "clayworking", "clothworking", "stonecrafting", "swordmaking", "tanning" ],
+      "exjourneyman": [],
+      "exapprentice": [ "subdue" ],
+      "branching": {
+        "expel": "barrier",
+        "disarm": "parry",
+        "bash": "shielduse",
+        "stonecrafting": "forage",
+        "clayworking": "forage",
+        "subdue": "flee",
+        "swordmaking": "fletchery",
+        "basketweaving": "lumberjacking",
+        "clothworking": "basketweaving",
+        "axemaking": "lumberjacking",
+        "hack": "axemaking",
+        "tanning": "toolmaking"
       }
     },
-    "craftsperson":{
-      "label":"Craftsperson",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Craftsperson",
-      "perks":[],
-      "languages":[],
-      "master":["contact","barrier","pilot","value","armormaking","bandagemaking","clothworking","dyeing","fletchery","knifemaking","lumberjacking","stonecrafting","toolmaking","woodworking","cooking"],
-      "advanced":["crossbowuse","slinguse","dualwield","twohanded","listencity","watch","forage"],
-      "journeyman":["flee","kick","shielduse","slashingweapons","piercingweapons","choppingweapons","bludgeoningweapons"],
-      "exmaster":["expel","haggle","armorrepair","axemaking","basketweaving","clayworking","clubmaking","jewelrymaking","leatherworking","spearmaking","swordmaking","tanning","tentmaking"],
-      "exadvanced":["bandage"],
-      "exjourneyman":[],
-      "branching":{
-        "expel":"barrier",
-        "haggle":"value",
-        "basketweaving":"forage",
-        "clayworking":"forage",
-        "axemaking":"lumberjacking",
-        "bandage":"bandagemaking",
-        "clubmaking":"woodworking",
-        "armorrepair":"armormaking",
-        "swordmaking":"knifemaking",
-        "spearmaking":"knifemaking",
-        "jewelrymaking":"stonecrafting",
-        "tentmaking":"clothworking",
-        "tanning":"toolmaking",
-        "leatherworking":"tanning"
+    "craftsperson": {
+      "label": "Craftsperson",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Craftsperson",
+      "perks": [],
+      "languages": [],
+      "master": [ "contact", "barrier", "pilot", "value", "armormaking", "bandagemaking", "clothworking", "dyeing", "fletchery", "knifemaking", "lumberjacking", "stonecrafting", "toolmaking", "woodworking", "cooking" ],
+      "advanced": [ "crossbowuse", "slinguse", "dualwield", "twohanded", "listencity", "watch", "forage" ],
+      "journeyman": [ "flee", "kick", "shielduse", "slashingweapons", "piercingweapons", "choppingweapons", "bludgeoningweapons" ],
+      "exmaster": [ "expel", "haggle", "armorrepair", "axemaking", "basketweaving", "clayworking", "clubmaking", "jewelrymaking", "leatherworking", "spearmaking", "swordmaking", "tanning", "tentmaking" ],
+      "exadvanced": [ "bandage" ],
+      "exjourneyman": [],
+      "branching": {
+        "expel": "barrier",
+        "haggle": "value",
+        "basketweaving": "forage",
+        "clayworking": "forage",
+        "axemaking": "lumberjacking",
+        "bandage": "bandagemaking",
+        "clubmaking": "woodworking",
+        "armorrepair": "armormaking",
+        "swordmaking": "knifemaking",
+        "spearmaking": "knifemaking",
+        "jewelrymaking": "stonecrafting",
+        "tentmaking": "clothworking",
+        "tanning": "toolmaking",
+        "leatherworking": "tanning"
       }
     },
-    "artisan":{
-      "label":"Artisan",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Artisan",
-      "perks":["custom"],
-      "languages":["cavilish"],
-      "mastercraft":[],
-      "master":["contact","barrier","pilot","haggle","value","armormaking","bandagemaking","bowmaking","clayworking","clothworking","clubmaking","dyeing","fletchery","knifemaking","lumberjacking","stonecrafting","toolmaking","cooking"],
-      "advanced":[],
-      "journeyman":["shielduse","dualwield","twohanded","bludgeoningweapons","forage"],
-      "exmaster":["expel","armorrepair","axemaking","basketweaving","featherworking","floristry","instrumentmaking","jewelrymaking","leatherworking","spearmaking","swordmaking","tanning","tentmaking","wagonmaking","woodworking"],
-      "exadvanced":["bandage"],
-      "exjourneyman":["crossbowuse","piercingweapons"],
-      "branching":{
-        "expel":"barrier",
-        "featherworking":"fletchery",
-        "floristry":"dyeing",
-        "woodworking":"lumberjacking",
-        "wagonmaking":"woodworking",
-        "axemaking":"lumberjacking",
-        "crossbowuse":"bowmaking",
-        "bandage":"bandagemaking",
-        "armorrepair":"armormaking",
-        "piercingweapons":"knifemaking",
-        "swordmaking":"knifemaking",
-        "spearmaking":"knifemaking",
-        "jewelrymaking":"stonecrafting",
-        "basketweaving":"clothworking",
-        "tentmaking":"clothworking",
-        "tanning":"toolmaking",
-        "leatherworking":"toolmaking",
-        "instrumentmaking":"toolmaking"
+    "artisan": {
+      "label": "Artisan",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Artisan",
+      "perks": [ "custom" ],
+      "languages": [ "cavilish" ],
+      "mastercraft": [],
+      "master": [ "contact", "barrier", "pilot", "haggle", "value", "armormaking", "bandagemaking", "bowmaking", "clayworking", "clothworking", "clubmaking", "dyeing", "fletchery", "knifemaking", "lumberjacking", "stonecrafting", "toolmaking", "cooking" ],
+      "advanced": [],
+      "journeyman": [ "shielduse", "dualwield", "twohanded", "bludgeoningweapons", "forage" ],
+      "exmaster": [ "expel", "armorrepair", "axemaking", "basketweaving", "featherworking", "floristry", "instrumentmaking", "jewelrymaking", "leatherworking", "spearmaking", "swordmaking", "tanning", "tentmaking", "wagonmaking", "woodworking" ],
+      "exadvanced": [ "bandage" ],
+      "exjourneyman": [ "crossbowuse", "piercingweapons" ],
+      "branching": {
+        "expel": "barrier",
+        "featherworking": "fletchery",
+        "floristry": "dyeing",
+        "woodworking": "lumberjacking",
+        "wagonmaking": "woodworking",
+        "axemaking": "lumberjacking",
+        "crossbowuse": "bowmaking",
+        "bandage": "bandagemaking",
+        "armorrepair": "armormaking",
+        "piercingweapons": "knifemaking",
+        "swordmaking": "knifemaking",
+        "spearmaking": "knifemaking",
+        "jewelrymaking": "stonecrafting",
+        "basketweaving": "clothworking",
+        "tentmaking": "clothworking",
+        "tanning": "toolmaking",
+        "leatherworking": "toolmaking",
+        "instrumentmaking": "toolmaking"
 
-     }
+      }
     }
   },
   "sortedsubguilds": [
@@ -1008,1066 +1012,1067 @@
     "weaponscrafter"
   ],
   "subguilds": {
-    "-":{
-      "label":"-",
-      "karma":0,
-      "documentation":"",
-      "perks":[],
-      "languages":[],
-      "master":[],
-      "advanced":[],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "branching":{}
+    "-": {
+      "label": "-",
+      "karma": 0,
+      "documentation": "",
+      "perks": [],
+      "languages": [],
+      "master": [],
+      "advanced": [],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "branching": {}
     },
-    "archer":{
-      "label":"Archer",
-      "karma":0,
-      "documentation":"http://armageddon.org/help/view/Archer",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["fletchery","featherworking","bowmaking"],
-      "journeyman":["archery","dyeing","directionsense"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "archer": {
+      "label": "Archer",
+      "karma": 0,
+      "documentation": "http://armageddon.org/help/view/Archer",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "fletchery", "featherworking", "bowmaking", "directionsense" ],
+      "journeyman": [ "archery", "dyeing" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "armormaker":{
-      "label":"Armormaker",
-      "karma":0,
-      "documentation":"http://armageddon.org/help/view/Armormaker",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["armorrepair","leatherworking","armormaking"],
-      "journeyman":["toolmaking"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "armormaker": {
+      "label": "Armormaker",
+      "karma": 0,
+      "documentation": "http://armageddon.org/help/view/Armormaker",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "leatherworking", "armormaking", "toolmaking", "tanning" ],
+      "journeyman": [ "armorrepair" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "bard":{
-      "label":"Bard",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Bard",
-      "perks":["languagebonus"],
-      "languages":[],
-      "mastercraft":[],
-      "master":["scancity"],
-      "advanced":["sleightofhand"],
-      "journeyman":["listencity","haggle","watch","instrumentmaking"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "bard": {
+      "label": "Bard",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Bard",
+      "perks": [ "languagebonus", "accentbonus" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [ "scancity" ],
+      "advanced": [ "sleightofhand", "watch" ],
+      "journeyman": [ "listencity", "haggle", "instrumentmaking" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "bountyhunter":{
-      "label":"Bounty Hunter",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Bounty%20Hunter",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["ride","directionsense"],
-      "journeyman":["subdue","sap","huntcity","huntwild"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "bountyhunter": {
+      "label": "Bounty Hunter",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Bounty%20Hunter",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "ride", "directionsense" ],
+      "journeyman": [ "subdue", "sap", "huntcity", "huntwild" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "caravanguide":{
-      "label":"Caravan Guide",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Caravan%20Guide",
-      "perks":["hitchdouble"],
-      "languages":["bendune"],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["ride","pilot","directionsense"],
-      "journeyman":["value"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "caravanguide": {
+      "label": "Caravan Guide",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Caravan%20Guide",
+      "perks": [ "hitchdouble" ],
+      "languages": [ "bendune" ],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "ride", "pilot", "directionsense" ],
+      "journeyman": [ "value" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "conartist":{
-      "label":"Con Artist",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Con%20Artist",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["hidecity","watch","sleightofhand"],
-      "journeyman":["value","haggle"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "conartist": {
+      "label": "Con Artist",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Con%20Artist",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "watch", "sleightofhand" ],
+      "journeyman": [ "value", "haggle", "hidecity" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "crafter":{
-      "label":"Crafter",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Crafter",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["basketweaving","clayworking","stonecrafting","forage"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "crafter": {
+      "label": "Crafter",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Crafter",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "basketweaving", "clayworking", "clubmaking", "toolmaking", "stonecrafting", "forage" ],
+      "journeyman": ["value"],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "forester":{
-      "label":"Forester",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Forester",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["woodworking","lumberjacking","axemaking"],
-      "journeyman":["huntwild","skinning","directionsense"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "forester": {
+      "label": "Forester",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Forester",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "woodworking", "lumberjacking", "axemaking", "directionsense" ],
+      "journeyman": [ "huntwild", "skinning" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "gladiator":{
-      "label":"Gladiator / Pit-Fighter",
-      "karma":0,
-      "documentation":"http://armageddon.org/help/view/Pit-Fighter",
-      "perks":["paintolerance"],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":[],
-      "journeyman":["kick","bash","disarm","threaten"],
-      "apprentice":["slashingweapons"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "gladiator": {
+      "label": "Gladiator / Pit-Fighter",
+      "karma": 0,
+      "documentation": "http://armageddon.org/help/view/Pit-Fighter",
+      "perks": [ "paintolerance" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [],
+      "journeyman": [ "kick", "bash", "disarm", "threaten" ],
+      "apprentice": [ "slashingweapons" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "guard":{
-      "label":"Guard",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Guard",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["watch"],
-      "journeyman":["rescue","subdue","guarding","shielduse"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "guard": {
+      "label": "Guard",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Guard",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "watch" ],
+      "journeyman": [ "rescue", "subdue", "guarding", "shielduse" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "houseservant":{
-      "label":"House Servant",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/House%20Servant",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["pilot","floristry","cooking","hidecity"],
-      "journeyman":["listencity"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "houseservant": {
+      "label": "House Servant",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/House%20Servant",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "pilot", "floristry", "cooking", "watch" ],
+      "journeyman": [ "listencity", "hidecity" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "hunter":{
-      "label":"Hunter",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Hunter",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["ride"],
-      "journeyman":["archery","huntwild","skinning","directionsense"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "hunter": {
+      "label": "Hunter",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Hunter",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "ride", "directionsense" ],
+      "journeyman": [ "archery", "huntwild", "skinning" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "jeweler":{
-      "label":"Jeweler",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Jeweler",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["featherworking","jewelrymaking"],
-      "journeyman":["value","toolmaking","haggle"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "jeweler": {
+      "label": "Jeweler",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Jeweler",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "featherworking", "jewelrymaking", "toolmaking" ],
+      "journeyman": [ "value", "haggle" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "linguist":{
-      "label":"Linguist",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Linguist",
-      "perks":["languagebonus"],
-      "languages":["allundean","mirukkim"],
-      "mastercraft":[],
-      "master":[],
-      "advanced":[],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "linguist": {
+      "label": "Linguist",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Linguist",
+      "perks": [ "languagebonus" ],
+      "languages": [ "allundean", "mirukkim" ],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "mercenary":{
-      "label":"Mercenary",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Mercenary",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["ride","knifemaking","armorrepair","watch"],
-      "journeyman":["directionsense"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "mercenary": {
+      "label": "Mercenary",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Mercenary",
+      "perks": [ "alcoholtolerance" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "ride", "knifemaking", "armorrepair", "watch", "directionsense" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "nomad":{
-      "label":"Nomad",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Nomad",
-      "perks":[],
-      "languages":["bendune"],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["ride","spearmaking","directionsense"],
-      "journeyman":["haggle"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "nomad": {
+      "label": "Nomad",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Nomad",
+      "perks": [],
+      "languages": [ "bendune" ],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "ride", "spearmaking", "directionsense" ],
+      "journeyman": [ "haggle" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "outlaw":{
-      "label":"Outlaw",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Outlaw",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["knifemaking","armorrepair","directionsense"],
-      "journeyman":["sneakwild","climb"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "outlaw": {
+      "label": "Outlaw",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Outlaw",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "knifemaking", "spearmaking", "armorrepair", "directionsense" ],
+      "journeyman": [ "sneakwild", "climb" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "physician":{
-      "label":"Physician",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Physician",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["bandage","brew","bandagemaking","floristry","forage"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "physician": {
+      "label": "Physician",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Physician",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "bandage", "brew", "bandagemaking", "floristry", "forage" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "tailor":{
-      "label":"Tailor",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Tailor",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["haggle","dyeing","clothworking"],
-      "journeyman":["toolmaking"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "tailor": {
+      "label": "Tailor",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Subclass%20Tailor",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "dyeing", "toolmaking", "clothworking" ],
+      "journeyman": [ "haggle" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "thief":{
-      "label":"Thief",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Thief",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["sleightofhand"],
-      "journeyman":["sneakcity","steal","peek","hidecity"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "thief": {
+      "label": "Thief",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Thief",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "sleightofhand" ],
+      "journeyman": [ "sneakcity", "steal", "peek", "hidecity" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "thug":{
-      "label":"Thug",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Thug",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":[],
-      "journeyman":["kick","subdue","sap","watch","bash"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "thug": {
+      "label": "Thug",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Thug",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [],
+      "journeyman": [ "kick", "subdue", "sap", "flee", "bash" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "weaponscrafter":{
-      "label":"Weaponscrafter",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Weaponscrafter",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["knifemaking","swordmaking","spearmaking"],
-      "journeyman":["toolmaking"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "weaponscrafter": {
+      "label": "Weaponscrafter",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Weaponscrafter",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "knifemaking", "swordmaking", "spearmaking", "toolmaking" ],
+      "journeyman": [ "toolmaking" ],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "customcrafter":{
-      "label":"Custom Crafter",
-      "karma":0,
-      "documentation":"https://armageddon.org/help/view/Custom%20Crafter",
-      "perks":["custom"],
-      "languages":[],
-      "mastercraft":[],
-      "master":["toolmaking"],
-      "advanced":[],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "customcrafter": {
+      "label": "Custom Crafter",
+      "karma": 0,
+      "documentation": "https://armageddon.org/help/view/Custom%20Crafter",
+      "perks": [ "custom" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [ "toolmaking" ],
+      "advanced": [],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
-    "aggressor":{
-      "label":"Aggressor",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Aggressor",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["slashingweapons","threaten"],
-      "journeyman":["kick","bash"],
-      "exmaster":[],
-      "exadvanced":["subdue","blindfighting"],
-      "exjourneyman":["disarm"],
-      "exapprentice":[],
-      "branching":{
-        "disarm":"kick",
-        "blindfighting":"kick",
-        "subdue":"bash"
+    "aggressor": {
+      "label": "Aggressor",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Aggressor",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "slashingweapons", "threaten" ],
+      "journeyman": [ "kick", "bash" ],
+      "exmaster": [],
+      "exadvanced": [ "subdue", "disarm" ],
+      "exjourneyman": [ "blindfighting" ],
+      "exapprentice": [],
+      "branching": {
+        "disarm": "kick",
+        "blindfighting": "kick",
+        "subdue": "bash"
       }
     },
-    "apothecary":{
-      "label":"Apothecary",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Apothecary",
-      "perks":[],
-      "languages":[],
-      "mastercraft":["bandagemaking","floristry"],
-      "master":[],
-      "advanced":["bandage","forage"],
-      "journeyman":[],
-      "exmaster":["brew"],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{
-        "brew":"bandage"
+    "apothecary": {
+      "label": "Apothecary",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Apothecary",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [ "bandagemaking", "floristry" ],
+      "master": [],
+      "advanced": [ "bandage", "forage" ],
+      "journeyman": [],
+      "exmaster": [ "brew" ],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {
+        "brew": "bandage"
       }
     },
-    "berserker":{
-      "label":"Berserker",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Berserker",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["choppingweapons","threaten"],
-      "journeyman":["kick","bash"],
-      "exmaster":[],
-      "exadvanced":["subdue","blindfighting"],
-      "exjourneyman":["disarm"],
-      "exapprentice":[],
-      "branching":{
-        "subdue":"bash",
-        "blindfighting":"kick",
-        "disarm":"kick"
+    "berserker": {
+      "label": "Berserker",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Berserker",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "choppingweapons", "threaten" ],
+      "journeyman": [ "kick", "bash" ],
+      "exmaster": [],
+      "exadvanced": [ "subdue", "disarm" ],
+      "exjourneyman": [ "blindfighting" ],
+      "exapprentice": [],
+      "branching": {
+        "subdue": "bash",
+        "blindfighting": "kick",
+        "disarm": "kick"
       }
     },
-    "bruiser":{
-      "label":"Bruiser",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Bruiser",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["bludgeoningweapons","threaten"],
-      "journeyman":["kick","bash"],
-      "exmaster":[],
-      "exadvanced":["subdue","blindfighting"],
-      "exjourneyman":["disarm"],
-      "exapprentice":[],
-      "branching":{
-        "subdue":"bash",
-        "blindfighting":"kick",
-        "disarm":"kick"
+    "bruiser": {
+      "label": "Bruiser",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Bruiser",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "bludgeoningweapons", "threaten" ],
+      "journeyman": [ "kick", "bash" ],
+      "exmaster": [],
+      "exadvanced": [ "subdue", "disarm" ],
+      "exjourneyman": [ "blindfighting" ],
+      "exapprentice": [],
+      "branching": {
+        "subdue": "bash",
+        "blindfighting": "kick",
+        "disarm": "kick"
       }
     },
-    "lancer":{
-      "label":"Lancer",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Lancer",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["piercingweapons","threaten"],
-      "journeyman":["kick","bash"],
-      "exmaster":[],
-      "exadvanced":["subdue","blindfighting"],
-      "exjourneyman":["disarm"],
-      "exapprentice":[],
-      "branching":{
-        "subdue":"bash",
-        "blindfighting":"kick",
-        "disarm":"kick"
+    "lancer": {
+      "label": "Lancer",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Lancer",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "piercingweapons", "threaten" ],
+      "journeyman": [ "kick", "bash" ],
+      "exmaster": [],
+      "exadvanced": [ "subdue", "disarm" ],
+      "exjourneyman": [ "blindfighting" ],
+      "exapprentice": [],
+      "branching": {
+        "subdue": "bash",
+        "blindfighting": "kick",
+        "disarm": "kick"
       }
     },
-    "majordomo":{
-      "label":"Majordomo",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Majordomo",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":["scancity"],
-      "advanced":["pilot","listencity","cooking","sleightofhand","watch"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching":{}
+    "majordomo": {
+      "label": "Majordomo",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Majordomo",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [ "scancity" ],
+      "advanced": [ "pilot", "listencity", "cooking", "sleightofhand", "watch" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
     },
     "grebber": {
-      "label":"Grebber",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Grebber",
-      "perks":["foragefoodwild","foragefoodcity"],
-      "languages":[],
-      "advanced":["huntcity","huntwild","forage","ride","directionsense"],
-      "exadvanced":["climb","search"],
-      "branching":{
-        "climb":"huntcity",
-        "climb":"huntwild",
-        "search":"forage"
-      }
-    },
-    "masterarmorsmith":{
-      "label":"Master Armorsmith",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Master%20Armorsmith",
-      "perks":[],
-      "languages":[],
-      "mastercraft":["armormaking","leatherworking"],
-      "master":["armorrepair","tanning"],
-      "advanced":["haggle"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching": {}
-    },
-    "masterchef":{
-      "label":"Master Chef",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Master%20Chef",
-      "perks":[],
-      "languages":[],
-      "mastercraft":["cooking"],
-      "master":[],
-      "advanced":["skinning","haggle"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching": {}
-    },
-    "mastercrafter":{
-      "label":"Master Crafter",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Master%20Crafter",
-      "perks":[],
-      "languages":[],
-      "mastercraft":["basketweaving","stonecrafting"],
-      "master":[],
-      "advanced":["haggle","dyeing","tanning"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching": {}
-    },
-    "masterjeweler":{
-      "label":"Master Jeweler",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Master%20Jeweler",
-      "perks":[],
-      "languages":[],
-      "mastercraft":["jewelrymaking"],
-      "master":[],
-      "advanced":["haggle","featherworking","stonecrafting","value"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching": {}
-    },
-    "masterpotter":{
-      "label":"Master Potter",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Master%20Potter",
-      "perks":[],
-      "languages":[],
-      "mastercraft":["clayworking","dyeing"],
-      "master":[],
-      "advanced":["haggle","value","toolmaking"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching": {}
-    },
-    "mastertailor":{
-      "label":"Master Tailor",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Master%20Tailor",
-      "perks":[],
-      "languages":[],
-      "mastercraft":["clothworking"],
-      "master":[],
-      "advanced":["haggle","dyeing","tanning"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching": {}
-    },
-    "mastertrader":{
-      "label":"Master Trader",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Master%20Trader",
-      "perks":[],
-      "languages":["cavilish"],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["ride","pilot","listenwild","directionsense","haggle","value"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching": {}
-    },
-    "minstrel":{
-      "label":"Minstrel",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Minstrel",
-      "perks":[],
-      "languages":[],
-      "mastercraft":["instrumentmaking"],
-      "master":[],
-      "advanced":["sleightofhand","scancity","listencity","watch","haggle"],
-      "journeyman":["steal"],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
+      "label": "Grebber",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Grebber",
+      "perks": [ "foragefoodwild", "foragefoodcity" ],
+      "languages": [],
+      "advanced": [ "huntcity", "huntwild", "forage", "ride", "directionsense" ],
+      "exadvanced": [ "climb", "search" ],
       "branching": {
-        "steal":"sleightofhand"
+        "climb": "huntcity",
+        "climb": "huntwild",
+        "search": "forage"
       }
     },
-    "outdoorsman":{
-      "label":"Outdoorsman",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Outdoorsman",
-      "perks":["rangerterrain"],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["archery","sneakwild","hidewild","skinning","directionsense", "huntwild"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":["scanwild"],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching": {
-        "scanwild":"hidewild",
-        "huntwild":"skinning"
-      }
-    },
-    "protector":{
-      "label":"Protector",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Protector",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["parry","guarding","shielduse"],
-      "journeyman":["rescue"],
-      "exmaster":[],
-      "exadvanced":["flee","bandage"],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching": {
-        "rescue":"guarding",
-        "bandage":"shielduse",
-        "flee":"parry"
-      }
-    },
-    "rogue":{
-      "label":"Rogue",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Rogue",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["watch","sneakcity","pick","climb","search"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":["scancity","hidecity"],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching": {
-        "scancity":"watch",
-        "hidecity":"sneakcity"
-      }
-    },
-    "roughrider":{
-      "label":"Roughrider",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Roughrider",
-      "perks":["hitchdouble","tamemount"],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["ride","charge"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
+    "masterarmorsmith": {
+      "label": "Master Armorsmith",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Master%20Armorsmith",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [ "armormaking", "leatherworking" ],
+      "master": [ "armorrepair", "tanning" ],
+      "advanced": [ "haggle" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
       "branching": {}
     },
-    "reaver":{
-      "label":"Reaver",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Reaver",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["choppingweapons","hack","disarm","shielduse","armorrepair"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
+    "masterchef": {
+      "label": "Master Chef",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Master%20Chef",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [ "cooking" ],
+      "master": [],
+      "advanced": [ "skinning", "haggle" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
       "branching": {}
     },
-    "wastelander":{
-      "label":"Wastelander",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Wastelander",
-      "perks":["foragefoodwild","wildquit"],
-      "languages":["bendune"],
-      "mastercraft":[],
-      "master":["scanwild"],
-      "advanced":["directionsense","search"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
+    "mastercrafter": {
+      "label": "Master Crafter",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Master%20Crafter",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [ "basketweaving", "stonecrafting" ],
+      "master": [],
+      "advanced": [ "haggle", "dyeing", "tanning" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
       "branching": {}
     },
-    "swordsman":{
-      "label":"Swordsman",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Swordsman",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["slashingweapons","parry","watch"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":["riposte"],
-      "exjourneyman":[],
-      "exapprentice":[],
-      "branching": {
-        "riposte":"parry"
-      }
-    },
-    "masterwoodworker":{
-      "label":"Master Woodworker",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Master%20Woodworker",
-      "perks":[],
-      "languages":[],
-      "mastercraft":["axemaking","clubmaking","woodworking"],
-      "master":[],
-      "advanced":["haggle","lumberjacking"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
+    "masterjeweler": {
+      "label": "Master Jeweler",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Master%20Jeweler",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [ "jewelrymaking" ],
+      "master": [],
+      "advanced": [ "haggle", "featherworking", "stonecrafting", "value" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
       "branching": {}
     },
-    "marksman":{
-      "label":"Marksman",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Marksman",
-      "perks":[],
-      "languages":[],
-      "mastercraft":["fletchery","bowmaking"],
-      "master":[],
-      "advanced":["archery","blowgunuse","crossbowuse","slinguse"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
+    "masterpotter": {
+      "label": "Master Potter",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Master%20Potter",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [ "clayworking", "dyeing" ],
+      "master": [],
+      "advanced": [ "haggle", "value", "toolmaking" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
+    },
+    "mastertailor": {
+      "label": "Master Tailor",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Master%20Tailor",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [ "clothworking" ],
+      "master": [],
+      "advanced": [ "haggle", "dyeing", "tanning" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
+    },
+    "mastertrader": {
+      "label": "Master Trader",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Master%20Trader",
+      "perks": [ "hitchdouble" ],
+      "languages": [ "cavilish" ],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "ride", "pilot", "listenwild", "directionsense", "haggle", "value" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
+    },
+    "minstrel": {
+      "label": "Minstrel",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Minstrel",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [ "instrumentmaking" ],
+      "master": [],
+      "advanced": [ "sleightofhand", "scancity", "listencity", "watch", "haggle" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [ "scancity" ],
+      "exjourneyman": [ "steal" ],
+      "exapprentice": [],
       "branching": {
-        "bowmaking":"fletchery"
+        "steal": "sleightofhand",
+        "scancity": "listencity"
       }
     },
-    "slipknife":{
-      "label":"Slipknife",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Slipknife",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["hidecity","sneakcity","backstab","poisoning","sleightofhand"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":["throw"],
-      "exapprentice":[],
+    "outdoorsman": {
+      "label": "Outdoorsman",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Outdoorsman",
+      "perks": [ "rangerterrain" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "archery", "sneakwild", "hidewild", "skinning", "directionsense" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [ "scanwild", "huntwild" ],
+      "exjourneyman": [],
+      "exapprentice": [],
       "branching": {
-        "throw":"hidecity"
+        "scanwild": "hidewild",
+        "huntwild": "skinning"
       }
     },
-    "cutpurse":{
-      "label":"Cutpurse",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Cutpurse",
-      "perks":[],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["hidecity","sneakcity","peek","steal"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":["sap","sleightofhand","scancity"],
-      "exjourneyman":[],
-      "exapprentice":[],
+    "protector": {
+      "label": "Protector",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Protector",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "parry", "guarding", "shielduse" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [ "flee", "bandage" ],
+      "exjourneyman": [ "rescue" ],
+      "exapprentice": [],
       "branching": {
-        "sap":"steal",
-        "sleightofhand":"steal",
-        "scancity":"peek"
+        "rescue": "guarding",
+        "bandage": "shielduse",
+        "flee": "parry"
       }
     },
-    "masterweaponsmith":{
-      "label":"Master Weaponsmith",
-      "karma":1,
-      "documentation":"https://armageddon.org/help/view/Master%20Weaponsmith",
-      "perks":[],
-      "languages":[],
-      "mastercraft":["swordmaking","knifemaking","spearmaking","fletchery"],
-      "master":[],
-      "advanced":["haggle"],
-      "journeyman":[],
-      "exmaster":[],
-      "exadvanced":[],
-      "exjourneyman":[],
-      "exapprentice":[],
+    "rogue": {
+      "label": "Rogue",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Rogue",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "watch", "sneakcity", "pick", "climb", "search" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [ "scancity", "hidecity" ],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {
+        "scancity": "watch",
+        "hidecity": "sneakcity"
+      }
+    },
+    "roughrider": {
+      "label": "Roughrider",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Roughrider",
+      "perks": [ "hitchdouble", "tamemount" ],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "ride", "charge" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
+    },
+    "reaver": {
+      "label": "Reaver",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Reaver",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "choppingweapons", "hack", "disarm", "shielduse", "armorrepair" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
+    },
+    "wastelander": {
+      "label": "Wastelander",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Wastelander",
+      "perks": [ "foragefoodwild", "wildquit" ],
+      "languages": [ "bendune" ],
+      "mastercraft": [],
+      "master": [ "scanwild" ],
+      "advanced": [ "directionsense", "search" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
+    },
+    "swordsman": {
+      "label": "Swordsman",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Swordsman",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "slashingweapons", "parry", "watch" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [ "riposte" ],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {
+        "riposte": "parry"
+      }
+    },
+    "masterwoodworker": {
+      "label": "Master Woodworker",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Master%20Woodworker",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [ "axemaking", "clubmaking", "woodworking" ],
+      "master": [],
+      "advanced": [ "haggle", "lumberjacking" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {}
+    },
+    "marksman": {
+      "label": "Marksman",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Marksman",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [ "fletchery", "bowmaking" ],
+      "master": [],
+      "advanced": [ "archery", "blowgunuse", "crossbowuse", "slinguse" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {
+        "bowmaking": "fletchery"
+      }
+    },
+    "slipknife": {
+      "label": "Slipknife",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Slipknife",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "hidecity", "sneakcity", "backstab", "poisoning", "sleightofhand" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [ "throw" ],
+      "exapprentice": [],
+      "branching": {
+        "throw": "hidecity"
+      }
+    },
+    "cutpurse": {
+      "label": "Cutpurse",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Cutpurse",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "hidecity", "sneakcity", "peek", "steal" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [ "sap", "sleightofhand", "scancity" ],
+      "exjourneyman": [],
+      "exapprentice": [],
+      "branching": {
+        "sap": "steal",
+        "sleightofhand": "steal",
+        "scancity": "peek"
+      }
+    },
+    "masterweaponsmith": {
+      "label": "Master Weaponsmith",
+      "karma": 1,
+      "documentation": "https://armageddon.org/help/view/Master%20Weaponsmith",
+      "perks": [],
+      "languages": [],
+      "mastercraft": [ "swordmaking", "knifemaking", "spearmaking", "fletchery" ],
+      "master": [],
+      "advanced": [ "haggle" ],
+      "journeyman": [],
+      "exmaster": [],
+      "exadvanced": [],
+      "exjourneyman": [],
+      "exapprentice": [],
       "branching": {}
     },
     "touchedrukkian": {
-      "label":"Touched Rukkian",
-      "karma":1,
-      "documentation":"http://armageddon.org/help/view/Touched",
-      "perks":["foragefoodwild", "rukkian"],
-      "languages":[],
-      "mastercraft":[],
-      "master":[],
-      "advanced":["forage"],
-      "journeyman":["climb"],
-      "exadvanced":["stonecrafting","jewelrymaking"],
-      "exjourneyman":["huntwild"],
-      "branching":{
-        "stonecrafting":"forage",
-        "jewelrymaking":"stonecrafting",
-        "huntwild":"climb"
+      "label": "Touched Rukkian",
+      "karma": 1,
+      "documentation": "http://armageddon.org/help/view/Touched",
+      "perks": [ "foragefoodwild", "rukkian" ],
+      "languages": [],
+      "mastercraft": [],
+      "master": [],
+      "advanced": [ "forage" ],
+      "journeyman": [ "climb" ],
+      "exadvanced": [ "stonecrafting", "jewelrymaking" ],
+      "exjourneyman": [ "huntwild" ],
+      "branching": {
+        "stonecrafting": "forage",
+        "jewelrymaking": "stonecrafting",
+        "huntwild": "climb"
       }
     },
     "touchedsukkrathi": {
-      "label":"Touched Suk-Krathi",
-      "karma":1,
-      "documentation":"http://armageddon.org/help/view/Touched",
-      "perks":["languagebonus","paintolerance","sukkrathi"],
-      "languages":["sirihish","allundean","mirukkim"],
-      "master":["cooking"],
-      "exadvanced":["clayworking"],
-      "branching":{
-        "clayworking":"cooking"
+      "label": "Touched Suk-Krathi",
+      "karma": 1,
+      "documentation": "http://armageddon.org/help/view/Touched",
+      "perks": [ "languagebonus", "paintolerance", "sukkrathi" ],
+      "languages": [ "sirihish", "allundean", "mirukkim" ],
+      "master": [ "cooking" ],
+      "exadvanced": [ "clayworking" ],
+      "branching": {
+        "clayworking": "cooking"
       }
     },
-    "touchedvivaduan":{
-      "label":"Touched Vivaduan",
-      "karma":1,
-      "documentation":"http://armageddon.org/help/view/Touched",
-      "perks":["vivaduan","alcoholtolerance","foragefoodwild","foragefoodcity"],
-      "languages":[],
-      "advanced":["bandage","forage"],
-      "exadvanced":["brew","floristry"],
-      "branching":{
-        "brew":"bandage",
-        "floristry":"forage"
+    "touchedvivaduan": {
+      "label": "Touched Vivaduan",
+      "karma": 1,
+      "documentation": "http://armageddon.org/help/view/Touched",
+      "perks": [ "vivaduan", "alcoholtolerance", "foragefoodwild", "foragefoodcity" ],
+      "languages": [],
+      "advanced": [ "bandage", "forage" ],
+      "exadvanced": [ "brew", "floristry" ],
+      "branching": {
+        "brew": "bandage",
+        "floristry": "forage"
       }
     },
-    "touchedwhiran":{
-      "label":"Touched Whiran",
-      "karma":1,
-      "documentation":"http://armageddon.org/help/view/Touched",
-      "perks":["whiran"],
-      "languages":[],
-      "advanced":["listencity","listenwild","directionsense"],
-      "journeyman":["hidecity","hidewild"],
-      "exadvanced":["sneakcity","sneakwild","scancity","scanwild"],
-      "branching":{
-        "sneakcity":"hidecity",
-        "scancity":"hidecity",
-        "sneakwild":"hidewild",
-        "scanwild":"hidewild"
+    "touchedwhiran": {
+      "label": "Touched Whiran",
+      "karma": 1,
+      "documentation": "http://armageddon.org/help/view/Touched",
+      "perks": [ "whiran" ],
+      "languages": [],
+      "advanced": [ "listencity", "listenwild", "directionsense" ],
+      "journeyman": [ "hidecity", "hidewild" ],
+      "exadvanced": [ "sneakcity", "sneakwild", "scancity", "scanwild" ],
+      "branching": {
+        "sneakcity": "hidecity",
+        "scancity": "hidecity",
+        "sneakwild": "hidewild",
+        "scanwild": "hidewild"
       }
     },
-    "toucheddrovian":{
-      "label":"Touched Drovian",
-      "karma":1,
-      "documentation":"http://armageddon.org/help/view/Touched",
-      "perks":["drovian"],
-      "languages":[],
-      "advanced":["hidecity","hidewild","listencity","blindfighting"],
-      "journeyman":[],
-      "exjourneyman":["sneakcity","sneakwild"],
-      "exadvanced":["poisoning"],
-      "branching":{
-          "sneakcity":"hidecity",
-          "sneakwild":"hidewild",
-          "poisoning":"hidecity"
+    "toucheddrovian": {
+      "label": "Touched Drovian",
+      "karma": 1,
+      "documentation": "http://armageddon.org/help/view/Touched",
+      "perks": [ "drovian" ],
+      "languages": [],
+      "advanced": [ "hidecity", "hidewild", "listencity", "blindfighting" ],
+      "journeyman": [],
+      "exjourneyman": [ "sneakcity", "sneakwild" ],
+      "exadvanced": [ "poisoning" ],
+      "branching": {
+        "sneakcity": "hidecity",
+        "sneakwild": "hidewild",
+        "poisoning": "hidecity"
       }
     },
-    "touchedelkrosian":{
-      "label":"Touched Elkrosian",
-      "karma":1,
-      "documentation":"http://armageddon.org/help/view/Touched",
-      "perks":["elkrosian","paintolerance"],
-      "languages":[],
-      "advanced":["bash","forage","directionsense"],
-      "journeyman":[],
-      "exadvanced":["huntwild","kick"],
-      "branching":{
-        "huntwild":"forage",
-        "kick":"bash"
+    "touchedelkrosian": {
+      "label": "Touched Elkrosian",
+      "karma": 1,
+      "documentation": "http://armageddon.org/help/view/Touched",
+      "perks": [ "elkrosian", "paintolerance" ],
+      "languages": [],
+      "advanced": [ "bash", "forage", "directionsense" ],
+      "journeyman": [],
+      "exadvanced": [ "huntwild", "kick" ],
+      "branching": {
+        "huntwild": "forage",
+        "kick": "bash"
       }
     }
   },
   "races": {
     "human": {
-      "label":"Human",
-      "documentation":"https://armageddon.org/help/view/Humans",
-      "karma":0,
-      "perks":[],
-      "languages":["sirihish"],
+      "label": "Human",
+      "documentation": "https://armageddon.org/help/view/Humans",
+      "karma": 0,
+      "perks": [],
+      "languages": [ "sirihish" ],
       "skillbonuses": [],
       "heightmin": 62,
       "heightmax": 78,
       "guildrestrictions": [],
       "walkingspeed": "base",
-      "agimod":"base",
-      "strmod":"base",
-      "wismod":"base",
-      "endumod":"base"
+      "agimod": "base",
+      "strmod": "base",
+      "wismod": "base",
+      "endumod": "base"
     },
     "cityelf": {
-      "label":"City Elf",
-      "documentation":"https://armageddon.org/help/view/City%20Elves",
-      "karma":0,
-      "perks":["nomount"],
-      "languages":["sirihish", "allundean"],
-      "skillbonuses": ["steal"],
+      "label": "City Elf",
+      "documentation": "https://armageddon.org/help/view/City%20Elves",
+      "karma": 0,
+      "perks": [ "nomount" ],
+      "languages": [ "sirihish", "allundean" ],
+      "skillbonuses": [ "steal" ],
       "heightmin": 75,
       "heightmax": 96,
       "guildrestrictions": [],
       "walkingspeed": "+++",
-      "agimod":"++",
-      "strmod":"--",
-      "wismod":"++",
-      "endumod":"--"
+      "agimod": "++",
+      "strmod": "--",
+      "wismod": "++",
+      "endumod": "--"
     },
     "halfelf": {
-      "label":"Half-Elf",
-      "documentation":"https://armageddon.org/help/view/Half-Elves",
-      "karma":0,
-      "perks":[],
-      "languages":["sirihish", "allundean"],
-      "skillbonuses": ["ride"],
+      "label": "Half-Elf",
+      "documentation": "https://armageddon.org/help/view/Half-Elves",
+      "karma": 0,
+      "perks": [],
+      "languages": [ "sirihish", "allundean" ],
+      "skillbonuses": [ "ride" ],
       "heightmin": 70,
       "heightmax": 82,
       "guildrestrictions": [],
       "walkingspeed": "++",
-      "agimod":"+",
-      "strmod":"-",
-      "wismod":"+",
-      "endumod":"-"
+      "agimod": "+",
+      "strmod": "-",
+      "wismod": "+",
+      "endumod": "-"
     },
     "dwarf": {
-      "label":"Dwarf",
-      "documentation":"https://armageddon.org/help/view/Dwarves",
-      "karma":0,
-      "perks":["poisontolerance","magicktolerance"],
-      "languages":["sirihish", "mirukkim"],
+      "label": "Dwarf",
+      "documentation": "https://armageddon.org/help/view/Dwarves",
+      "karma": 0,
+      "perks": [ "poisontolerance", "magicktolerance" ],
+      "languages": [ "sirihish", "mirukkim" ],
       "skillbonuses": [],
       "heightmin": 50,
       "heightmax": 58,
       "guildrestrictions": [],
       "walkingspeed": "-",
-      "agimod":"-",
-      "strmod":"+",
-      "wismod":"-",
-      "endumod":"+"
+      "agimod": "-",
+      "strmod": "+",
+      "wismod": "-",
+      "endumod": "+"
     },
     "desertelf": {
-      "label":"Desert Elf",
-      "documentation":"https://armageddon.org/help/view/Desert%20Elves",
-      "karma":1,
-      "perks":["nomount"],
-      "languages":["allundean"],
+      "label": "Desert Elf",
+      "documentation": "https://armageddon.org/help/view/Desert%20Elves",
+      "karma": 1,
+      "perks": [ "nomount" ],
+      "languages": [ "allundean" ],
       "skillbonuses": [],
       "heightmin": 75,
       "heightmax": 96,
       "guildrestrictions": [],
       "walkingspeed": "+++",
-      "agimod":"++",
-      "strmod":"--",
-      "wismod":"++",
-      "endumod":"--"
+      "agimod": "++",
+      "strmod": "--",
+      "wismod": "++",
+      "endumod": "--"
     },
     "halfgiant": {
-      "label":"Half-Giant",
-      "documentation":"https://armageddon.org/help/view/Half-Giants",
-      "karma":2,
-      "perks":[],
-      "languages":["sirihish"],
+      "label": "Half-Giant",
+      "documentation": "https://armageddon.org/help/view/Half-Giants",
+      "karma": 2,
+      "perks": [],
+      "languages": [ "sirihish" ],
       "skillbonuses": [],
       "heightmin": 125,
       "heightmax": 155,
       "guildrestrictions": [],
       "walkingspeed": "-",
-      "agimod":"--",
-      "strmod":"++",
-      "wismod":"--",
-      "endumod":"++"
+      "agimod": "--",
+      "strmod": "++",
+      "wismod": "--",
+      "endumod": "++"
     },
     "mul": {
-      "label":"Mul",
-      "documentation":"https://armageddon.org/help/view/Muls",
-      "karma":3,
-      "perks":["nomagick"],
-      "languages":["sirihish","mirukkim"],
+      "label": "Mul",
+      "documentation": "https://armageddon.org/help/view/Muls",
+      "karma": 3,
+      "perks": [ "nomagick" ],
+      "languages": [ "sirihish", "mirukkim" ],
       "skillbonuses": [],
       "heightmin": 60,
       "heightmax": 72,
-      "weightmin":10,
-      "weightmax":15,
-      "agestartingmin":12,
-      "agestartingmax":51,
-      "human17equiv":15,
-      "ageabsolutemax":60,
+      "weightmin": 10,
+      "weightmax": 15,
+      "agestartingmin": 12,
+      "agestartingmax": 51,
+      "human17equiv": 15,
+      "ageabsolutemax": 60,
       "guildrestrictions": [],
       "walkingspeed": "base",
-      "agimod":"base",
-      "strmod":"++",
-      "wismod":"base",
-      "endumod":"++"
+      "agimod": "base",
+      "strmod": "++",
+      "wismod": "base",
+      "endumod": "++"
     }
   },
   "proficiencies": [

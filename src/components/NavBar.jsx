@@ -70,15 +70,15 @@ const NavBar = ({
   const [drawerOpen, setDrawerOpen] = useState(false);
   const navLinks = [
     {
-      to: '/arma-guild-picker/',
-      label: 'Guild Picker'
+          to: '/arma-character-tool/class-picker/',
+      label: 'Class Picker'
     },
     {
-      to: '/arma-guild-picker/guild-compare/',
-      label: 'Guild Compare'
+        to: '/arma-character-tool/class-compare/',
+      label: 'Class Compare'
     },
     {
-      to: '/arma-guild-picker/skill-picker/',
+        to: '/arma-character-tool/skill-picker/',
       label: 'Skill Picker'
     },
   ];
@@ -122,7 +122,7 @@ const NavBar = ({
           </IconButton>
           <Toolbar className={classes.appBar}>
             <Typography className={classes.appTitle} variant="h6" color="inherit">
-              Armageddon MUD Skills & Guilds
+              Armageddon MUD Character Tool
             </Typography>
             <div className={classes.horizontalNavLinks}>
               {HorizonalNavLinks}

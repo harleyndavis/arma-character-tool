@@ -81,8 +81,8 @@ class GuildPicker extends Component {
       subguild,
     } = this.state;
     const tableConfig = {
-      g1Label: "Guild",
-      g2Label: "Subguild",
+      g1Label: "Class",
+      g2Label: "Subclass",
       g1Key: "guild",
       g2Key: "subguild",
       g1Value: guild,
@@ -92,7 +92,7 @@ class GuildPicker extends Component {
       <>
         <Grid container justifyContent="center" spacing={2} className={classes.container}>
           <Grid item xs={12} sm={6}>
-            <FormHelperText>Guild</FormHelperText>
+            <FormHelperText>Class</FormHelperText>
             <FormControl className={classes.formControl}>
               <Select
                 value={this.state.guild}
@@ -122,7 +122,7 @@ class GuildPicker extends Component {
             </FormControl>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <FormHelperText>Subguild</FormHelperText>
+            <FormHelperText>Subclass</FormHelperText>
             <FormControl className={classes.formControl}>
               <Select
                 className={classes.select}
