@@ -36,7 +36,8 @@ class LanguageCompareTable extends Component {
     result = {},
   }) {
       if (data[guildGroup] && data[guildGroup][gSelected] && data[guildGroup][gSelected].languages) {
-      data[guildGroup][gSelected].languages.forEach(lng => {
+          data[guildGroup][gSelected].languages.forEach(lng => {
+              console.log(lng);
         result[lng] = {
           [`g${gNumber}Language`]: data.skills.languages[lng].label,
           ...result[lng],
