@@ -393,6 +393,10 @@
         "label": "Adept at picking up new accents",
         "documentation": ""
       },
+      "accentbonuspartial": {
+        "label": "Adept at picking up northern, southern and 'rinthi accents",
+        "documentation": ""
+      },
       "languagebonus": {
         "label": "Adept at picking up new languages",
         "documentation": ""
@@ -407,6 +411,24 @@
       },
       "foragefoodcity": {
         "label": "Forage for scraps in cities",
+        "documentation": ""
+      },
+
+      "stealthwild": {
+        "label": "Stealth specialized for wilderness environments",
+        "documentation": ""
+      },
+      "stealthcity": {
+        "label": "Stealth specialized for city environments",
+        "documentation": ""
+      },
+
+      "huntwild": {
+        "label": "Hunting specialized for wilderness environments",
+        "documentation": ""
+      },
+      "huntcity": {
+        "label": "Hunting specialized for city environments",
         "documentation": ""
       },
       "rangerridecharge": {
@@ -1131,7 +1153,7 @@
       "mastercraft": [],
       "master": [],
       "advanced": [ "basketweaving", "clayworking", "clubmaking", "toolmaking", "stonecrafting", "forage" ],
-      "journeyman": ["value"],
+      "journeyman": [ "value" ],
       "exmaster": [],
       "exadvanced": [],
       "exjourneyman": [],
@@ -1207,7 +1229,7 @@
       "label": "Hunter",
       "karma": 0,
       "documentation": "https://armageddon.org/help/view/Hunter",
-      "perks": [],
+      "perks": [ "huntwild", "stealthwild" ],
       "languages": [],
       "mastercraft": [],
       "master": [],
@@ -1239,7 +1261,7 @@
       "label": "Linguist",
       "karma": 0,
       "documentation": "https://armageddon.org/help/view/Linguist",
-      "perks": [ "languagebonus" ],
+      "perks": [ "languagebonus", "accentbonuspartial" ],
       "languages": [ "allundean", "mirukkim" ],
       "mastercraft": [],
       "master": [],
@@ -1287,7 +1309,7 @@
       "label": "Outlaw",
       "karma": 0,
       "documentation": "https://armageddon.org/help/view/Outlaw",
-      "perks": [],
+      "perks": [ "stealthwild", "huntwild" ],
       "languages": [],
       "mastercraft": [],
       "master": [],
@@ -1335,7 +1357,7 @@
       "label": "Thief",
       "karma": 0,
       "documentation": "https://armageddon.org/help/view/Thief",
-      "perks": [],
+      "perks": [ "stealthcity" ],
       "languages": [],
       "mastercraft": [],
       "master": [],
