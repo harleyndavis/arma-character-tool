@@ -113,7 +113,7 @@ class SkillPicker extends Component {
           const karmaLabel = (guild.karma || subguild.karma) ? ` (${guild.karma + subguild.karma})` : '';
           result.push({
             label: `${guild.label}/${subguild.label}${karmaLabel}`,
-            linkTo: `/arma-guild-picker/?guild=${guild.key}&subguild=${subguild.key}`
+            linkTo: `/arma-character-tool/?guild=${guild.key}&subguild=${subguild.key}`
           })
         }
       }

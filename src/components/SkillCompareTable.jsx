@@ -93,7 +93,7 @@ class SkillCompareTable extends Component {
     gNumber = 1,
   }) {
     const proficiencyKey = `${extended ? 'ex': ''}${proficiency}`;
-    if (data[guildGroup] && data[guildGroup][gSelected][proficiencyKey]) {
+      if (data[guildGroup] && data[guildGroup][gSelected] && data[guildGroup][gSelected][proficiencyKey]) {
       data[guildGroup][gSelected][proficiencyKey].forEach(sk => {
         const {
           group,
