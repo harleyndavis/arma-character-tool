@@ -10,22 +10,40 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import TimeComponent from './TimeComponent.js';
 import ArmLogo from './ArmLogo.js';
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles, styled } from '@material-ui/core/styles';
 import { withRouter } from "react-router";
 import { Link } from "react-router-dom";
 
-const styles = (theme) => ({
-    appBar: {
+const PREFIX = 'NavBar';
+
+const classes = {
+    appBar: `${PREFIX}-appBar`,
+    appTitle: `${PREFIX}-appTitle`,
+    link: `${PREFIX}-link`,
+    sideNavLink: `${PREFIX}-sideNavLink`,
+    horizontalNavLinks: `${PREFIX}-horizontalNavLinks`,
+    menuButton: `${PREFIX}-menuButton`,
+    activeLink: `${PREFIX}-activeLink`
+};
+
+const StyledAppBar = styled(AppBar)((
+    {
+        theme
+    }
+) => ({
+    [`& .${classes.appBar}`]: {
         ...theme.appBar
     },
-    appTitle: {
+
+    [`& .${classes.appTitle}`]: {
         paddingRight: 32,
         [theme.breakpoints.down('xs')]: {
             fontSize: 12,
             paddingRight: 12,
         }
     },
-    link: {
+
+    [`& .${classes.link}`]: {
         textDecoration: 'none',
         color: 'inherit',
         opacity: 0.69,
@@ -35,7 +53,8 @@ const styles = (theme) => ({
             padding: '4px',
         },
     },
-    sideNavLink: {
+
+    [`& .${classes.sideNavLink}`]: {
         textDecoration: 'none',
         '&>button > span': {
             color: 'white',
@@ -44,21 +63,24 @@ const styles = (theme) => ({
             }
         },
     },
-    horizontalNavLinks: {
+
+    [`& .${classes.horizontalNavLinks}`]: {
         [theme.breakpoints.down('sm')]: {
             display: 'none',
         }
     },
-    menuButton: {
+
+    [`& .${classes.menuButton}`]: {
         width: 64,
         [theme.breakpoints.up('md')]: {
             display: 'none',
         }
     },
-    activeLink: {
+
+    [`& .${classes.activeLink}`]: {
         opacity: 1,
-    },
-});
+    }
+}));
 
 const NavBar = ({
     classes,
@@ -89,7 +111,7 @@ const NavBar = ({
     ];
 
     return (
-        <AppBar position="static" className={classes.appBarContainer}>
+        <StyledAppBar position="static" className={classes.appBarContainer}>
             <Toolbar disableGutters sx={{ width: 1 }}>
                 <Typography
                     variant="h4"
@@ -152,7 +174,7 @@ const NavBar = ({
                         fontFamily: 'monospace',
                         fontWeight: '1000',
                         letterSpacing: '.3rem',
-                        color: 'rgba(158, 31, 31, 0.8)',
+                        color: 'inherit',
                         textDecoration: 'none',
                     }}
                 > Character Tool
@@ -161,7 +183,7 @@ const NavBar = ({
                 <Box sx={{ flexGrow: 1, display: { xs: 'none', sm: 'none', lg: 'flex' }, justifyContent: "space-evenly" }}>
                     {navLinks.map((navLink) => (
                         <Button
-                            noWrap
+
                             href={navLink.to}
                             key={navLink.label}
                             onClick={handleCloseNavMenu}
@@ -176,7 +198,7 @@ const NavBar = ({
                     <TimeComponent />
                 </Box>
             </Toolbar>
-        </AppBar>
+        </StyledAppBar>
     );
 }
-export default withRouter(withStyles(styles)(NavBar));
+export default withRouter((NavBar));

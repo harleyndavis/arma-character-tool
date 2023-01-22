@@ -1,5 +1,5 @@
 import React, { Component }from 'react'
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import queryString from 'query-string';
 import data from '../data/data.json'
 import InputLabel from '@mui/material/InputLabel';
@@ -12,18 +12,34 @@ import SkillCompareTable from './SkillCompareTable';
 import PerkCompareTable from './PerkCompareTable';
 import LanguageCompareTable from './LanguageCompareTable';
 
-const styles = (theme) => ({
-  container: {
+const PREFIX = 'GuildPicker';
+
+const classes = {
+  container: `${PREFIX}-container`,
+  formControl: `${PREFIX}-formControl`,
+  link: `${PREFIX}-link`
+};
+
+// TODO jss-to-styled codemod: The Fragment root was replaced by div. Change the tag if needed.
+const Root = styled('div')((
+  {
+    theme
+  }
+) => ({
+  [`& .${classes.container}`]: {
     flexGrow: 1,
   },
-  formControl: {
+
+  [`& .${classes.formControl}`]: {
     width: 'calc(100% - 1rem)',
     marginRight: '1rem',
   },
-  link: {
+
+  [`& .${classes.link}`]: {
     color: theme.palette.primary.main,
-  },
-});
+  }
+}));
+
 class GuildPicker extends Component {
   state = {
     guild: 'enforcer',
@@ -89,7 +105,7 @@ class GuildPicker extends Component {
       g2Value: subguild,
     };
     return (
-      <>
+      (<Root>
         <Grid container justifyContent="center" spacing={2} className={classes.container}>
           <Grid item xs={12} sm={6}>
             <FormHelperText>Class</FormHelperText>
@@ -174,8 +190,8 @@ class GuildPicker extends Component {
             </Grid>
           </Grid>
         </Grid>
-      </>
+      </Root>)
     );
   }
 }
-export default withStyles(styles)(GuildPicker);
+export default (GuildPicker);

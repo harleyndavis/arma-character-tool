@@ -1,5 +1,5 @@
 import React, { Component }from 'react'
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import data from '../data/data.json'
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -10,8 +10,20 @@ import Paper from '@mui/material/Paper';
 import Chip from '@mui/material/Chip';
 import Tooltip from '@mui/material/Tooltip';
 
-const styles = (theme) => ({
-  cell: {
+const PREFIX = 'SkillCompareTable';
+
+const classes = {
+  cell: `${PREFIX}-cell`,
+  titleCell: `${PREFIX}-titleCell`,
+  chip: `${PREFIX}-chip`
+};
+
+const StyledPaper = styled(Paper)((
+  {
+    theme
+  }
+) => ({
+  [`& .${classes.cell}`]: {
     width: '25%',
     [theme.breakpoints.down('md')]: {
       padding: 4,
@@ -21,7 +33,8 @@ const styles = (theme) => ({
     },
     padding: 8,
   },
-  titleCell: {
+
+  [`& .${classes.titleCell}`]: {
     textTransform: 'capitalize',
     padding: 8,
     backgroundColor: '#aaaaaa21',
@@ -32,7 +45,8 @@ const styles = (theme) => ({
       paddingRight: '4px !important'
     },
   },
-  chip: {
+
+  [`& .${classes.chip}`]: {
     backgroundColor: 'rgb(48, 48, 48)',
     fontSize: 8,
     marginLeft: 8,
@@ -59,7 +73,8 @@ const styles = (theme) => ({
       }
     }
   }
-});
+}));
+
 class SkillCompareTable extends Component {
 
   findGroupAndLabel(skillKey) {
@@ -145,7 +160,7 @@ class SkillCompareTable extends Component {
     } = this.props;
     const mungedSkills = this.mungeSkills();
     return (
-      <Paper square elevation={3} m={3} className={classes.root}>
+      <StyledPaper square elevation={3} m={3} className={classes.root}>
         <Table className={classes.table}>
           <TableHead>
             <TableRow>
@@ -264,9 +279,9 @@ class SkillCompareTable extends Component {
             ))}
           </TableBody>
         </Table>
-      </Paper>
+      </StyledPaper>
     );
   }
 }
-export default withStyles(styles)(SkillCompareTable);
+export default (SkillCompareTable);
 

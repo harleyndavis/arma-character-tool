@@ -1,5 +1,5 @@
 import React, { Component }from 'react'
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import data from '../data/data.json'
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -9,8 +9,19 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Link from '@mui/material/Link';
 
-const styles = (theme) => ({
-  cell: {
+const PREFIX = 'RaceTable';
+
+const classes = {
+  cell: `${PREFIX}-cell`,
+  noContent: `${PREFIX}-noContent`
+};
+
+const StyledPaper = styled(Paper)((
+  {
+    theme
+  }
+) => ({
+  [`& .${classes.cell}`]: {
     width: '50%',
     [theme.breakpoints.down('md')]: {
       padding: 4,
@@ -22,12 +33,14 @@ const styles = (theme) => ({
       padding: 8,
     },
   },
-  noContent: {
+
+  [`& .${classes.noContent}`]: {
     padding: '1rem',
     textAlign: 'center',
     width: '100%'
-  },
-});
+  }
+}));
+
 class RaceTable extends Component {
   render() {
     const {
@@ -37,7 +50,7 @@ class RaceTable extends Component {
     const selectedRace = data.races.human;
 
     return (
-      <Paper square className={classes.root}>
+      <StyledPaper square className={classes.root}>
         <Table className={classes.table}>
           <TableHead>
             <TableRow>
@@ -82,9 +95,9 @@ class RaceTable extends Component {
             </TableRow>
           </TableBody>
         </Table>
-      </Paper>
+      </StyledPaper>
     );
   }
 }
-export default withStyles(styles)(RaceTable);
+export default (RaceTable);
 

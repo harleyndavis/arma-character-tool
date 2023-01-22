@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
@@ -8,36 +8,63 @@ import MuiChip from '@mui/material/Chip';
 import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
 
-const styles = (theme) => ({
-  sectionTitle: {
+const PREFIX = 'SkillPicker';
+
+const classes = {
+  sectionTitle: `${PREFIX}-sectionTitle`,
+  skillGroupTitle: `${PREFIX}-skillGroupTitle`,
+  guildOptionText: `${PREFIX}-guildOptionText`,
+  guildOptionLink: `${PREFIX}-guildOptionLink`,
+  selectedCount: `${PREFIX}-selectedCount`,
+  chipContainer: `${PREFIX}-chipContainer`,
+  Muichip: `${PREFIX}-Muichip`,
+  clearSelected: `${PREFIX}-clearSelected`
+};
+
+const StyledGrid = styled(Grid)((
+  {
+    theme
+  }
+) => ({
+  [`& .${classes.sectionTitle}`]: {
     fontSize: 20,
     padding: 6,
   },
-  skillGroupTitle: {
+
+  [`& .${classes.skillGroupTitle}`]: {
     fontSize: 18,
     padding: 20,
     textTransform: 'capitalize',
   },
-  guildOptionText: {
-    padding: '0 20px',
+
+  [`& .${classes.guildOptionText}`]: {
+      padding: '0 20px',
+
+      color: '#ffffff5e'
   },
-  guildOptionLink: {
+
+  [`& .${classes.guildOptionLink}`]: {
     color: '#ffffff5e'
   },
-  selectedCount: {
+
+  [`& .${classes.selectedCount}`]: {
     color: '#ffffff5e'
   },
-  chipContainer: {
+
+  [`& .${classes.chipContainer}`]: {
       padding: '0 20px',
   },
-    chip: {
-    contrastText: "rgba(0, 0, 0, 0.87)",
-    margin: '0 4px 4px 0',
-  },
-  clearSelected: {
+
+  [`& .${classes.Muichip}`]: {
+  contrastText: "rgba(0, 0, 0, 0.87)",
+  margin: '0 4px 4px 0',
+},
+
+  [`& .${classes.clearSelected}`]: {
     float: 'right',
   }
-});
+}));
+
 class SkillPicker extends Component {
   state = {
     selectedSkills: [],
@@ -130,7 +157,7 @@ class SkillPicker extends Component {
       selectedSkills,
     } = this.state;
     return (
-      <Grid container justifyContent="center" spacing={2} className={classes.container}>
+      <StyledGrid container justifyContent="center" spacing={2} className={classes.container}>
         <Grid item xs={12} sm={6}>
           <Paper square>
             <Grid container>
@@ -188,9 +215,9 @@ class SkillPicker extends Component {
             </Grid>
           </Paper>
         </Grid>
-      </Grid>
+      </StyledGrid>
     );
   }
 }
 
-export default withStyles(styles)(SkillPicker);
+export default (SkillPicker);

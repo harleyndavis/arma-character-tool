@@ -1,5 +1,5 @@
 import React, { Component }from 'react'
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import data from '../data/data.json'
 import Typography from '@mui/material/Typography';
 import Table from '@mui/material/Table';
@@ -9,8 +9,19 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-const styles = (theme) => ({
-  cell: {
+const PREFIX = 'LanguageCompareTable';
+
+const classes = {
+  cell: `${PREFIX}-cell`,
+  noContent: `${PREFIX}-noContent`
+};
+
+const StyledPaper = styled(Paper)((
+  {
+    theme
+  }
+) => ({
+  [`& .${classes.cell}`]: {
     width: '50%',
     [theme.breakpoints.down('md')]: {
       padding: 4,
@@ -22,12 +33,13 @@ const styles = (theme) => ({
       padding: 8,
     },
   },
-  noContent: {
+
+  [`& .${classes.noContent}`]: {
     padding: '1rem',
     textAlign: 'center',
     width: '100%'
   }
-});
+}));
 
 class LanguageCompareTable extends Component {
   languagesToObj({
@@ -77,7 +89,7 @@ class LanguageCompareTable extends Component {
 
     const mungedLanguages = this.mungeLanguages();
     return (
-      <Paper square className={classes.root}>
+      <StyledPaper square className={classes.root}>
         <Table className={classes.table}>
           <TableHead>
             <TableRow>
@@ -105,9 +117,9 @@ class LanguageCompareTable extends Component {
             ))}
           </TableBody>
         </Table>
-      </Paper>
+      </StyledPaper>
     );
   }
 }
-export default withStyles(styles)(LanguageCompareTable);
+export default (LanguageCompareTable);
 
