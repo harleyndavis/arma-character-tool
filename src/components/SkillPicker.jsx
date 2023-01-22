@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { withStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
+import withStyles from '@mui/styles/withStyles';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
 import data from '../data/data.json';
-import Chip from '@material-ui/core/Chip';
-import Button from '@material-ui/core/Button';
+import MuiChip from '@mui/material/Chip';
+import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
 
 const styles = (theme) => ({
@@ -28,9 +28,10 @@ const styles = (theme) => ({
     color: '#ffffff5e'
   },
   chipContainer: {
-    padding: '0 20px'
+      padding: '0 20px',
   },
-  chip: {
+    chip: {
+    contrastText: "rgba(0, 0, 0, 0.87)",
     margin: '0 4px 4px 0',
   },
   clearSelected: {
@@ -155,11 +156,11 @@ class SkillPicker extends Component {
                 <Typography className={classes.skillGroupTitle}>{skillGroup}</Typography>
                 <div className={classes.chipContainer}>
                   {Object.keys(data.skills[skillGroup]).map((key) => (
-                    <Chip
+                    <MuiChip
                       className={classes.chip}
                       onClick={(event) => this.toggleSelection(event, key)}
                       label={data.skills[skillGroup][key].label}
-                      color={selectedSkills.includes(key) ? 'primary' : ''}
+                      color={selectedSkills.includes(key) ? 'primary' : 'secondary'}
                     />
                   ))}
                 </div>
@@ -178,7 +179,7 @@ class SkillPicker extends Component {
               {this.findGuildsForSkills().map(guildCombination => (
                 <Grid item xs={12} sm={6} className={classes.guildOption}>
                   <Link to={guildCombination.linkTo} className={classes.guildOptionLink}>
-                    <Typography className={classes.guildOptionText}>
+                    <Typography className={classes.guildOptionText} color='secondary'>
                       {guildCombination.label}
                     </Typography>
                   </Link>

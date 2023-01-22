@@ -1,24 +1,24 @@
 import React, { Component }from 'react'
-import { withStyles } from '@material-ui/core/styles';
+import withStyles from '@mui/styles/withStyles';
 import data from '../data/data.json'
-import Typography from '@material-ui/core/Typography';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
+import Typography from '@mui/material/Typography';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
 
 const styles = (theme) => ({
   cell: {
     width: '50%',
-    [theme.breakpoints.down('xs')]: {
+    [theme.breakpoints.down('md')]: {
       padding: 4,
       fontSize: '0.65rem',
       maxWidth: 65,
       paddingRight: '4px !important'
     },
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('lg')]: {
       padding: 8,
     },
   },
@@ -28,6 +28,7 @@ const styles = (theme) => ({
     width: '100%'
   }
 });
+
 class LanguageCompareTable extends Component {
   languagesToObj({
     guildGroup,
@@ -91,7 +92,7 @@ class LanguageCompareTable extends Component {
           <TableBody>
             {(!mungedLanguages || mungedLanguages.length === 0) && (
               <TableRow key="noLanguages">
-                <Typography className={classes.noContent}>Neither group has bonus languages</Typography>
+                            <TableCell colSpan={2} className={classes.noContent}>Neither group has bonus languages</TableCell>
               </TableRow>
             )}
             {mungedLanguages && mungedLanguages.length > 0  && mungedLanguages.map(row => (

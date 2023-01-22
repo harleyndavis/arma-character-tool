@@ -1,5 +1,5 @@
 import React from 'react'
-import { withTheme } from '@material-ui/core/styles';
+import withTheme from '@mui/styles/withTheme';
 
 const Index = () => 'Index'
 export default withTheme()(Index);

@@ -1,7 +1,7 @@
 import React from 'react'
-import { withStyles } from '@material-ui/core/styles';
+import withStyles from '@mui/styles/withStyles';
 import NavBar from './NavBar'
-import Grid from '@material-ui/core/Grid';
+import Grid from '@mui/material/Grid';
 
 const styles = (theme) => ({
   layout: {
@@ -9,7 +9,7 @@ const styles = (theme) => ({
     overflow: 'hidden'
   },
   contentWrapper: {
-    [theme.breakpoints.down('lg')]: {
+    [theme.breakpoints.down('xl')]: {
       maxWidth: 1100,
       margin: '0 auto'
     }

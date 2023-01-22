@@ -1,0 +1,12 @@
+.timeBlock {
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgba(158, 31, 31, 0.8);
+    color: rgb(255, 221, 163);
+    font-size: large;
+    height: fit-content;
+    width: fit-content;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

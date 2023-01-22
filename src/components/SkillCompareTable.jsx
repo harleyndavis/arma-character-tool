@@ -1,19 +1,19 @@
 import React, { Component }from 'react'
-import { withStyles } from '@material-ui/core/styles';
+import withStyles from '@mui/styles/withStyles';
 import data from '../data/data.json'
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
-import Chip from '@material-ui/core/Chip';
-import Tooltip from '@material-ui/core/Tooltip';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
+import Chip from '@mui/material/Chip';
+import Tooltip from '@mui/material/Tooltip';
 
 const styles = (theme) => ({
   cell: {
     width: '25%',
-    [theme.breakpoints.down('xs')]: {
+    [theme.breakpoints.down('md')]: {
       padding: 4,
       fontSize: '0.65rem',
       maxWidth: 65,
@@ -25,7 +25,7 @@ const styles = (theme) => ({
     textTransform: 'capitalize',
     padding: 8,
     backgroundColor: '#aaaaaa21',
-    [theme.breakpoints.down('xs')]: {
+    [theme.breakpoints.down('md')]: {
       padding: 4,
       fontSize: '0.65rem',
       maxWidth: 65,
@@ -39,7 +39,7 @@ const styles = (theme) => ({
     padding: 2,
     height: 16,
     marginTop: -1,
-    [theme.breakpoints.down('xs')]: {
+    [theme.breakpoints.down('md')]: {
       marginLeft: 3,
       fontSize: 7,
       height: 13,
@@ -47,14 +47,14 @@ const styles = (theme) => ({
     '&> span': {
       paddingLeft: 4,
       paddingRight: 4,
-      [theme.breakpoints.down('xs')]: {
+      [theme.breakpoints.down('md')]: {
         paddingLeft: 2,
         paddingRight: 2
       }
     },
     '&> span::after': {
       content: '"BRANCH"',
-      [theme.breakpoints.down('xs')]: {
+      [theme.breakpoints.down('md')]: {
           content: '"B"',
       }
     }
