@@ -1,70 +1,42 @@
 import React, { Component } from 'react'
-import { styled } from '@mui/material/styles';
-import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
-import Typography from '@mui/material/Typography';
+import { withStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
 import data from '../data/data.json';
-import MuiChip from '@mui/material/Chip';
-import Button from '@mui/material/Button';
+import Chip from '@material-ui/core/Chip';
+import Button from '@material-ui/core/Button';
 import { Link } from "react-router-dom";
 
-const PREFIX = 'SkillPicker';
-
-const classes = {
-  sectionTitle: `${PREFIX}-sectionTitle`,
-  skillGroupTitle: `${PREFIX}-skillGroupTitle`,
-  guildOptionText: `${PREFIX}-guildOptionText`,
-  guildOptionLink: `${PREFIX}-guildOptionLink`,
-  selectedCount: `${PREFIX}-selectedCount`,
-  chipContainer: `${PREFIX}-chipContainer`,
-  Muichip: `${PREFIX}-Muichip`,
-  clearSelected: `${PREFIX}-clearSelected`
-};
-
-const StyledGrid = styled(Grid)((
-  {
-    theme
-  }
-) => ({
-  [`& .${classes.sectionTitle}`]: {
+const styles = (theme) => ({
+  sectionTitle: {
     fontSize: 20,
     padding: 6,
   },
-
-  [`& .${classes.skillGroupTitle}`]: {
+  skillGroupTitle: {
     fontSize: 18,
     padding: 20,
     textTransform: 'capitalize',
   },
-
-  [`& .${classes.guildOptionText}`]: {
-      padding: '0 20px',
-
-      color: '#ffffff5e'
+  guildOptionText: {
+    padding: '0 20px',
   },
-
-  [`& .${classes.guildOptionLink}`]: {
+  guildOptionLink: {
     color: '#ffffff5e'
   },
-
-  [`& .${classes.selectedCount}`]: {
+  selectedCount: {
     color: '#ffffff5e'
   },
-
-  [`& .${classes.chipContainer}`]: {
-      padding: '0 20px',
+  chipContainer: {
+    padding: '0 20px'
   },
-
-  [`& .${classes.Muichip}`]: {
-  contrastText: "rgba(0, 0, 0, 0.87)",
-  margin: '0 4px 4px 0',
-},
-
-  [`& .${classes.clearSelected}`]: {
+  chip: {
+    margin: '0 4px 4px 0',
+  },
+  clearSelected: {
     float: 'right',
   }
-}));
-
+});
 class SkillPicker extends Component {
   state = {
     selectedSkills: [],
@@ -157,7 +129,7 @@ class SkillPicker extends Component {
       selectedSkills,
     } = this.state;
     return (
-      <StyledGrid container justifyContent="center" spacing={2} className={classes.container}>
+      <Grid container justifyContent="center" spacing={2} className={classes.container}>
         <Grid item xs={12} sm={6}>
           <Paper square>
             <Grid container>
@@ -183,11 +155,11 @@ class SkillPicker extends Component {
                 <Typography className={classes.skillGroupTitle}>{skillGroup}</Typography>
                 <div className={classes.chipContainer}>
                   {Object.keys(data.skills[skillGroup]).map((key) => (
-                    <MuiChip
+                    <Chip
                       className={classes.chip}
                       onClick={(event) => this.toggleSelection(event, key)}
                       label={data.skills[skillGroup][key].label}
-                      color={selectedSkills.includes(key) ? 'primary' : 'secondary'}
+                      color={selectedSkills.includes(key) ? 'primary' : ''}
                     />
                   ))}
                 </div>
@@ -206,7 +178,7 @@ class SkillPicker extends Component {
               {this.findGuildsForSkills().map(guildCombination => (
                 <Grid item xs={12} sm={6} className={classes.guildOption}>
                   <Link to={guildCombination.linkTo} className={classes.guildOptionLink}>
-                    <Typography className={classes.guildOptionText} color='secondary'>
+                    <Typography className={classes.guildOptionText}>
                       {guildCombination.label}
                     </Typography>
                   </Link>
@@ -215,9 +187,9 @@ class SkillPicker extends Component {
             </Grid>
           </Paper>
         </Grid>
-      </StyledGrid>
+      </Grid>
     );
   }
 }
 
-export default (SkillPicker);
+export default withStyles(styles)(SkillPicker);

@@ -1,204 +1,136 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import Button from '@mui/material/Button';
-import MenuItem from '@mui/material/MenuItem';
-import TimeComponent from './TimeComponent.js';
-import ArmLogo from './ArmLogo.js';
-import { withStyles, styled } from '@material-ui/core/styles';
+import React from 'react';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Drawer from '@material-ui/core/Drawer';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import Typography from '@material-ui/core/Typography'
+import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
+import { NavLink } from "react-router-dom";
+import { withStyles } from '@material-ui/core/styles';
 import { withRouter } from "react-router";
-import { Link } from "react-router-dom";
 
-const PREFIX = 'NavBar';
+const { useState } = React;
 
-const classes = {
-    appBar: `${PREFIX}-appBar`,
-    appTitle: `${PREFIX}-appTitle`,
-    link: `${PREFIX}-link`,
-    sideNavLink: `${PREFIX}-sideNavLink`,
-    horizontalNavLinks: `${PREFIX}-horizontalNavLinks`,
-    menuButton: `${PREFIX}-menuButton`,
-    activeLink: `${PREFIX}-activeLink`
-};
-
-const StyledAppBar = styled(AppBar)((
-    {
-        theme
+const styles = (theme) => ({
+  appBar: {
+    ...theme.appBar
+  },
+  appTitle: {
+    paddingRight: 32,
+    [theme.breakpoints.down('xs')]: {
+      fontSize: 12,
+      paddingRight: 12,
     }
-) => ({
-    [`& .${classes.appBar}`]: {
-        ...theme.appBar
+  },
+  link: {
+    textDecoration: 'none',
+    color: 'inherit',
+    opacity: 0.69,
+    '&>button': {
+      fontWeight: 600,
+      margin: '0 4px',
+      padding: '4px',
     },
-
-    [`& .${classes.appTitle}`]: {
-        paddingRight: 32,
-        [theme.breakpoints.down('xs')]: {
-            fontSize: 12,
-            paddingRight: 12,
-        }
+  },
+  sideNavLink: {
+    textDecoration: 'none',
+    '&>button > span': {
+      color: 'white',
+      [theme.breakpoints.down('sm')]: {
+        fontSize: 10,
+      }
     },
-
-    [`& .${classes.link}`]: {
-        textDecoration: 'none',
-        color: 'inherit',
-        opacity: 0.69,
-        '&>button': {
-            fontWeight: 600,
-            margin: '0 4px',
-            padding: '4px',
-        },
-    },
-
-    [`& .${classes.sideNavLink}`]: {
-        textDecoration: 'none',
-        '&>button > span': {
-            color: 'white',
-            [theme.breakpoints.down('sm')]: {
-                fontSize: 10,
-            }
-        },
-    },
-
-    [`& .${classes.horizontalNavLinks}`]: {
-        [theme.breakpoints.down('sm')]: {
-            display: 'none',
-        }
-    },
-
-    [`& .${classes.menuButton}`]: {
-        width: 64,
-        [theme.breakpoints.up('md')]: {
-            display: 'none',
-        }
-    },
-
-    [`& .${classes.activeLink}`]: {
-        opacity: 1,
+  },
+  horizontalNavLinks: {
+    [theme.breakpoints.down('sm')]: {
+      display: 'none',
     }
-}));
+  },
+  menuButton: {
+    width: 64,
+    [theme.breakpoints.up('md')]: {
+      display: 'none',
+    }
+  },
+  activeLink: {
+    opacity: 1,
+  },
+  appBarContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+  },
+});
 
 const NavBar = ({
-    classes,
+  classes,
 }) => {
-    const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const navLinks = [
+    {
+      to: '/arma-character-tool/',
+      label: 'Class Picker'
+    },
+    {
+      to: '/arma-character-tool/class-compare/',
+      label: 'Class Compare'
+    },
+    {
+      to: '/arma-character-tool/skill-picker/',
+      label: 'Skill Picker'
+    },
+  ];
 
-    const handleOpenNavMenu = (event) => {
-        setAnchorElNav(event.currentTarget);
-    };
+  const HorizonalNavLinks = navLinks.map(({to, label}) => (
+    <NavLink to={to} className={classes.link} activeClassName={classes.activeLink} exact>
+      <Button color="inherit">
+        {label}
+      </Button>
+    </NavLink>
+  ));
 
-    const handleCloseNavMenu = () => {
-        setAnchorElNav(null);
-    };
+  const SideNavLinks = navLinks.map(({to, label}) => (
+    <ListItem key={to}>
+      <NavLink to={to} className={classes.sideNavLink} activeClassName={classes.activeLink} exact>
+        <Button color="inherit">
+          {label}
+        </Button>
+      </NavLink>
+    </ListItem>
+  ));
 
-    const navLinks = [
-        {
-            to: '/arma-character-tool/class-picker/',
-            label: 'Class Picker'
-        },
-        {
-            to: '/arma-character-tool/class-compare/',
-            label: 'Class Compare'
-        },
-        {
-            to: '/arma-character-tool/skill-picker/',
-            label: 'Skill Picker'
-        },
-    ];
-
-    return (
-        <StyledAppBar position="static" className={classes.appBarContainer}>
-            <Toolbar disableGutters sx={{ width: 1 }}>
-                <Typography
-                    variant="h4"
-                    component="a"
-                    href="/"
-                    sx={{
-                        ml: 2,
-                        fontFamily: 'monospace',
-                        fontWeight: '1000',
-                        letterSpacing: '.3rem',
-                        color: 'rgba(158, 31, 31, 0.8)',
-                        textDecoration: 'none',
-                        display: { xs: 'none', sm: 'none', lg: 'flex' }
-                    }}
-                > Armageddon MUD Character Tool
-                </Typography>
-                <Box sx={{ my: 2, display: { sm: 'flex', lg: 'none' } }}>
-                    <IconButton
-                        size="large"
-                        aria-label="account of current user"
-                        aria-controls="menu-appbar"
-                        aria-haspopup="true"
-                        onClick={handleOpenNavMenu}
-                        color="inherit"
-                    >
-                        <MenuIcon />
-                    </IconButton>
-                    <Menu
-                        id="menu-appbar"
-                        anchorEl={anchorElNav}
-                        anchorOrigin={{
-                            vertical: 'bottom',
-                            horizontal: 'left',
-                        }}
-                        keepMounted
-                        transformOrigin={{
-                            vertical: 'top',
-                            horizontal: 'left',
-                        }}
-                        open={Boolean(anchorElNav)}
-                        onClose={handleCloseNavMenu}
-                        sx={{
-                            display: { sm: 'inline', lg: 'none' },
-                        }}
-                    >
-                        {navLinks.map((navLink) => (
-                            <MenuItem component={Link} to={navLink.to} key={navLink.label} onClick={handleCloseNavMenu}>
-                                <Typography textAlign="center">{navLink.label}</Typography>
-                            </MenuItem>
-                        ))}
-                    </Menu>
-                </Box>
-                <Typography
-                    variant="h4"
-                    component="a"
-                    href="/"
-                    sx={{
-                        flexGrow: 1,
-                        display: { sm: 'flex', lg: 'none' },
-                        fontFamily: 'monospace',
-                        fontWeight: '1000',
-                        letterSpacing: '.3rem',
-                        color: 'inherit',
-                        textDecoration: 'none',
-                    }}
-                > Character Tool
-                </Typography>
-
-                <Box sx={{ flexGrow: 1, display: { xs: 'none', sm: 'none', lg: 'flex' }, justifyContent: "space-evenly" }}>
-                    {navLinks.map((navLink) => (
-                        <Button
-
-                            href={navLink.to}
-                            key={navLink.label}
-                            onClick={handleCloseNavMenu}
-                            sx={{ fontSize: '20', fontWeight: 'bold', display: 'inline' }}
-                        >
-                            {navLink.label}
-                        </Button>
-                    ))}
-                </Box>
-
-                <Box sx={{ my:2, mr: 2, justifyContent: 'center', display: { xs: 'none', sm: 'flex' } }}>
-                    <TimeComponent />
-                </Box>
-            </Toolbar>
-        </StyledAppBar>
-    );
+  return(
+    <>
+      <Drawer open={drawerOpen} onClose={() => setDrawerOpen(false)}>
+        <List>
+          {SideNavLinks}
+        </List>
+      </Drawer>
+      <AppBar position="static">
+        <div className={classes.appBarContainer}>
+          <IconButton
+            className={classes.menuButton}
+            hidden-lg="true"
+            color="inherit"
+            aria-label="open drawer"
+            edge="end"
+            onClick={() => setDrawerOpen(!drawerOpen)}
+          >
+            <MenuIcon />
+          </IconButton>
+          <Toolbar className={classes.appBar}>
+            <Typography className={classes.appTitle} variant="h6" color="inherit">
+              Armageddon MUD Character Tool
+            </Typography>
+            <div className={classes.horizontalNavLinks}>
+              {HorizonalNavLinks}
+            </div>
+          </Toolbar>
+        </div>
+      </AppBar>
+    </>
+  )
 }
-export default withRouter((NavBar));
+export default withRouter(withStyles(styles)(NavBar));

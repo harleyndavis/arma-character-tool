@@ -1,31 +1,19 @@
 import React, { Component }from 'react'
-import { styled } from '@mui/material/styles';
+import { withStyles } from '@material-ui/core/styles';
 import data from '../data/data.json'
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
-import Chip from '@mui/material/Chip';
-import Tooltip from '@mui/material/Tooltip';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
+import Chip from '@material-ui/core/Chip';
+import Tooltip from '@material-ui/core/Tooltip';
 
-const PREFIX = 'SkillCompareTable';
-
-const classes = {
-  cell: `${PREFIX}-cell`,
-  titleCell: `${PREFIX}-titleCell`,
-  chip: `${PREFIX}-chip`
-};
-
-const StyledPaper = styled(Paper)((
-  {
-    theme
-  }
-) => ({
-  [`& .${classes.cell}`]: {
+const styles = (theme) => ({
+  cell: {
     width: '25%',
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('xs')]: {
       padding: 4,
       fontSize: '0.65rem',
       maxWidth: 65,
@@ -33,27 +21,25 @@ const StyledPaper = styled(Paper)((
     },
     padding: 8,
   },
-
-  [`& .${classes.titleCell}`]: {
+  titleCell: {
     textTransform: 'capitalize',
     padding: 8,
     backgroundColor: '#aaaaaa21',
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('xs')]: {
       padding: 4,
       fontSize: '0.65rem',
       maxWidth: 65,
       paddingRight: '4px !important'
     },
   },
-
-  [`& .${classes.chip}`]: {
+  chip: {
     backgroundColor: 'rgb(48, 48, 48)',
     fontSize: 8,
     marginLeft: 8,
     padding: 2,
     height: 16,
     marginTop: -1,
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('xs')]: {
       marginLeft: 3,
       fontSize: 7,
       height: 13,
@@ -61,20 +47,19 @@ const StyledPaper = styled(Paper)((
     '&> span': {
       paddingLeft: 4,
       paddingRight: 4,
-      [theme.breakpoints.down('md')]: {
+      [theme.breakpoints.down('xs')]: {
         paddingLeft: 2,
         paddingRight: 2
       }
     },
     '&> span::after': {
       content: '"BRANCH"',
-      [theme.breakpoints.down('md')]: {
+      [theme.breakpoints.down('xs')]: {
           content: '"B"',
       }
     }
   }
-}));
-
+});
 class SkillCompareTable extends Component {
 
   findGroupAndLabel(skillKey) {
@@ -108,7 +93,7 @@ class SkillCompareTable extends Component {
     gNumber = 1,
   }) {
     const proficiencyKey = `${extended ? 'ex': ''}${proficiency}`;
-      if (data[guildGroup] && data[guildGroup][gSelected] && data[guildGroup][gSelected][proficiencyKey]) {
+    if (data[guildGroup] && data[guildGroup][gSelected][proficiencyKey]) {
       data[guildGroup][gSelected][proficiencyKey].forEach(sk => {
         const {
           group,
@@ -160,7 +145,7 @@ class SkillCompareTable extends Component {
     } = this.props;
     const mungedSkills = this.mungeSkills();
     return (
-      <StyledPaper square elevation={3} m={3} className={classes.root}>
+      <Paper square elevation={3} m={3} className={classes.root}>
         <Table className={classes.table}>
           <TableHead>
             <TableRow>
@@ -279,9 +264,9 @@ class SkillCompareTable extends Component {
             ))}
           </TableBody>
         </Table>
-      </StyledPaper>
+      </Paper>
     );
   }
 }
-export default (SkillCompareTable);
+export default withStyles(styles)(SkillCompareTable);
 

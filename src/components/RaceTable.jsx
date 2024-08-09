@@ -1,46 +1,33 @@
 import React, { Component }from 'react'
-import { styled } from '@mui/material/styles';
+import { withStyles } from '@material-ui/core/styles';
 import data from '../data/data.json'
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
-import Link from '@mui/material/Link';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
+import Link from '@material-ui/core/Link';
 
-const PREFIX = 'RaceTable';
-
-const classes = {
-  cell: `${PREFIX}-cell`,
-  noContent: `${PREFIX}-noContent`
-};
-
-const StyledPaper = styled(Paper)((
-  {
-    theme
-  }
-) => ({
-  [`& .${classes.cell}`]: {
+const styles = (theme) => ({
+  cell: {
     width: '50%',
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('xs')]: {
       padding: 4,
       fontSize: '0.65rem',
       maxWidth: 65,
       paddingRight: '4px !important'
     },
-    [theme.breakpoints.down('lg')]: {
+    [theme.breakpoints.down('sm')]: {
       padding: 8,
     },
   },
-
-  [`& .${classes.noContent}`]: {
+  noContent: {
     padding: '1rem',
     textAlign: 'center',
     width: '100%'
-  }
-}));
-
+  },
+});
 class RaceTable extends Component {
   render() {
     const {
@@ -50,7 +37,7 @@ class RaceTable extends Component {
     const selectedRace = data.races.human;
 
     return (
-      <StyledPaper square className={classes.root}>
+      <Paper square className={classes.root}>
         <Table className={classes.table}>
           <TableHead>
             <TableRow>
@@ -95,9 +82,9 @@ class RaceTable extends Component {
             </TableRow>
           </TableBody>
         </Table>
-      </StyledPaper>
+      </Paper>
     );
   }
 }
-export default (RaceTable);
+export default withStyles(styles)(RaceTable);
 

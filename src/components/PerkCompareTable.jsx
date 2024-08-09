@@ -1,46 +1,33 @@
 import React, { Component }from 'react'
-import { styled } from '@mui/material/styles';
+import { withStyles } from '@material-ui/core/styles';
 import data from '../data/data.json'
-import Typography from '@mui/material/Typography';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
+import Typography from '@material-ui/core/Typography';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
 
-const PREFIX = 'PerkCompareTable';
-
-const classes = {
-  cell: `${PREFIX}-cell`,
-  noContent: `${PREFIX}-noContent`
-};
-
-const StyledPaper = styled(Paper)((
-  {
-    theme
-  }
-) => ({
-  [`& .${classes.cell}`]: {
+const styles = (theme) => ({
+  cell: {
     width: '50%',
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('xs')]: {
       padding: 4,
       fontSize: '0.65rem',
       maxWidth: 65,
       paddingRight: '4px !important'
     },
-    [theme.breakpoints.down('lg')]: {
+    [theme.breakpoints.down('sm')]: {
       padding: 8,
     },
   },
-
-  [`& .${classes.noContent}`]: {
+  noContent: {
     padding: '1rem',
     textAlign: 'center',
     width: '100%'
   }
-}));
-
+});
 class PerkCompareTable extends Component {
   perksToObj({
     guildGroup,
@@ -48,7 +35,7 @@ class PerkCompareTable extends Component {
     gNumber = 1,
     result = {},
   }) {
-      if (data[guildGroup] && data[guildGroup] && data[guildGroup][gSelected] && data[guildGroup][gSelected].perks) {
+    if (data[guildGroup] && data[guildGroup][gSelected].perks) {
       data[guildGroup][gSelected].perks.forEach(prk => {
         result[prk] = {
           [`g${gNumber}Perk`]: data.skills.perks[prk].label,
@@ -88,7 +75,7 @@ class PerkCompareTable extends Component {
 
     const mungedPerks = this.mungePerks();
     return (
-      <StyledPaper square className={classes.root}>
+      <Paper square className={classes.root}>
         <Table className={classes.table}>
           <TableHead>
             <TableRow>
@@ -116,9 +103,9 @@ class PerkCompareTable extends Component {
             ))}
           </TableBody>
         </Table>
-      </StyledPaper>
+      </Paper>
     );
   }
 }
-export default (PerkCompareTable);
+export default withStyles(styles)(PerkCompareTable);
 
